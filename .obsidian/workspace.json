@@ -1,0 +1,255 @@
+{
+  "main": {
+    "id": "3acb2e22073f81d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "74057c309e0254e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "06067902b63b3209",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Others/latex符号.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3cdc61e38f5c866d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Supplement/Schrodinger Equation.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa556553321309b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Course/Semiconductor Device Physics.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ec0dae0cd76f9913",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Course/Semiconductor Device Physics.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d3d86d6bc3c67afc",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e8fee08526c51f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1955e94e5d8df513",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "daa2e3d4a96e4fa4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0803d1df6486df9b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "5ccee9cb810dcca0",
+            "type": "leaf",
+            "state": {
+              "type": "trash-explorer",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 219.5
+  },
+  "right": {
+    "id": "d1f976f375fc2565",
+    "type": "split",
+    "children": [
+      {
+        "id": "9bac30bfa450d76c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc90a2b99e02511b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Course/Semiconductor Device Physics.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6d3d96c87b0afc57",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Course/Semiconductor Device Physics.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "574fe3852ec83a55",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "885d58d2c64e7ccc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Course/Semiconductor Device Physics.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "remotely-save:Remotely Save": false,
+      "translate:Open translation view": false,
+      "obsidian-trash-explorer:Open trash explorer": false
+    }
+  },
+  "active": "ec0dae0cd76f9913",
+  "lastOpenFiles": [
+    "NOTE",
+    "新建文件夹",
+    "_image/Timing.pdf.baiduyun.uploading.cfg",
+    "Supplement/Schrodinger Equation.md.baiduyun.uploading.cfg",
+    "Supplement/Leakage Current Mechanisms.md.baiduyun.uploading.cfg",
+    "Supplement/Fan-out 4.md.baiduyun.uploading.cfg",
+    "Supplement/Crystal.md.baiduyun.uploading.cfg",
+    "Others/摄影后期.md.baiduyun.uploading.cfg",
+    "Others/摄影前期.md.baiduyun.uploading.cfg",
+    "Others/产业报告.md.baiduyun.uploading.cfg",
+    "Others/Week06.md.baiduyun.uploading.cfg",
+    "Course/Nano Electronics.md",
+    "Course/Semiconductor Device Physics.md",
+    "Supplement/Schrodinger Equation.md",
+    "Others/latex符号.md",
+    "Course/Digital Integrated Circuit.md",
+    "Course/Digital Integrated Circuit--Literature Review.md",
+    "image_1.png",
+    "Course/模拟集成电路.md",
+    "Course/VLSI Flow.md",
+    "Course/Analog Integrity Circuit.md",
+    "Others/MarkDown 教程.md",
+    "Cryogenic CMOS/低温CMOS.md",
+    "Course/半导体物理.md",
+    "Others/产业报告.md",
+    "Others/摄影后期.md",
+    "Others/摄影前期.md",
+    "_image/image_217.png",
+    "broken links output.md",
+    "Others/Week06.md",
+    "Others/Previous Week Plan.md",
+    "Supplement/Leakage Current Mechanisms.md",
+    "Course/Dynamic CMOS Logic VS Ratioed Logic.md",
+    "Course/Digital Integrated Circuit--Reading.md",
+    "_image/image_216.png",
+    "_image/image_215.png",
+    "_image/image_214.png",
+    "_image/image_213.png",
+    "_image/image_212.png",
+    "_image/image_211.png",
+    "_image/image_210.png",
+    "_image/image_209.png",
+    "Supplement/Crystal.md",
+    "Others/Cadence.md",
+    "Supplement/Fan-out 4.md",
+    "MOS Capacitor.md",
+    "未命名.canvas",
+    "数字集成电路设计_image_1.canvas",
+    "未命名 1.canvas"
+  ]
+}

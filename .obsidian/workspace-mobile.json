@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "0d0b076947c32de7",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a7200689821c456",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ea399a6fcb3dd464",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Course/Digital Integrated Circuit.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "19925f29ed3121d7",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "c393d8db2e46bc7f",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "58b638830d4c2be2",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "23076fbebec4ac9f",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "b2aedc102444ceb7",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "10d3f70980d7faf6",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "27781f9594bda2ee",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Course/Digital Integrated Circuit.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "d4ba3751e1084463",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Course/Digital Integrated Circuit.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "05ca973b81e16340",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Course/Digital Integrated Circuit.md"
+          }
+        }
+      }
+    ]
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "remotely-save:Remotely Save": false,
+      "translate:Open translation view": false,
+      "obsidian-trash-explorer:Open trash explorer": false
+    }
+  },
+  "active": "ea399a6fcb3dd464",
+  "lastOpenFiles": [
+    "Course/Semiconductor Device Physics.md",
+    "Course/半导体物理.md",
+    "Course/Nano Electronics.md",
+    "Course/Analog Integrity Circuit.md",
+    "Others/摄影后期.md",
+    "Others/摄影前期.md",
+    "broken links output.md",
+    "Semiconductor Device Physics.md",
+    "VLSI Flow.md",
+    "Digital Integrated Circuit.md",
+    "Nano Electronics.md",
+    "Digital Integrated Circuit--Literature Review.md",
+    "Applied Numerical Computing.md",
+    "Analog Integrity Circuit.md",
+    "模拟集成电路.md",
+    "摄影后期.md",
+    "Crystal.md",
+    "README-zh_CN.md",
+    "Hspice.md",
+    "低温CMOS.md",
+    "image_1.html",
+    "Dynamic CMOS Logic VS Ratioed Logic.md",
+    "Fan-out 4.md",
+    "MarkDown 教程.md",
+    "Week06.md",
+    "latex符号.md",
+    "半导体物理.md",
+    "_image/image_18.png",
+    "_image/image_24.png",
+    "_image/image_30.png",
+    "_image/image_161.png",
+    "_image/image_175.png",
+    "_image/image_30.jpg",
+    "_image/image_149.png",
+    "_image/image_138.jpeg",
+    "_image/image_217.png",
+    "_image/image_202.png",
+    "_image/The Depletion NMOS Transistor.pdf",
+    "_image/Timing.pdf",
+    "_image/量子输运理论基础.pdf",
+    "_image"
+  ]
+}

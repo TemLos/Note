@@ -1,0 +1,10 @@
+{
+  "imageNamePattern": "image",
+  "dupNumberAtStart": false,
+  "dupNumberDelimiter": "_",
+  "dupNumberAlways": true,
+  "autoRename": true,
+  "handleAllAttachments": false,
+  "excludeExtensionPattern": "pdf",
+  "disableRenameNotice": false
+}

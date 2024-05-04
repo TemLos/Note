@@ -1,0 +1,18 @@
+{
+  "promptDelete": false,
+  "attachmentFolderPath": "_image",
+  "alwaysUpdateLinks": true,
+  "showLineNumber": true,
+  "strictLineBreaks": true,
+  "autoPairMarkdown": false,
+  "useTab": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "trashOption": "local",
+  "readableLineLength": true
+}
