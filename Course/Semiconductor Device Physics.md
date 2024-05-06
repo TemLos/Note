@@ -218,7 +218,7 @@ $$
 Consider depletion approximation, no recombination and generation in $W_{D}(V_{F})$
 $$
 \begin{align*}
-J(x_{p}(V_{F})) &= J_{n}(x_{p}(V_{F}))+J_{p}(x_{p}(V_{F}))\\
+J(x_{p}(V_{F})) &= \underbrace{J_{n}(x_{p}(V_{F}))}_{minoring\ diff}+\underbrace{J_{p}(x_{p}(V_{F}))}_{majoring\ diff}\\
 &= J_{n}(x_{n}(V_{F}))+J_{p}(x_{n}(V_{F}))
 \end{align*}
 $$
