@@ -164,7 +164,16 @@ Free carrier concentration under depletion approximation
 $$
 n(x)=\begin{cases}
 \frac{n^{2}_{i}}{N_{A}}, x\lt -|x_{p}| \\
-0, 
+0, -|x_{p}|\lt x \lt |x_{n}| \\
+N_{D}, x\gt |x_{n}|
+\end{cases}
+$$
+$$
+p(x)=\begin{cases}
+0, x\lt-|x_{p}| \\
+-N_{A}, -|x_{p}|\lt x\lt 0 \\
++N_{D}, 0\lt x\lt |x_{n}| \\
+0, x\gt |x_{n}|
 \end{cases}
 $$
 ### Homo-Junction
