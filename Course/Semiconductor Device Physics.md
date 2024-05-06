@@ -137,8 +137,7 @@ For a PN Junction at equilibrium, we have
 
 - The Fermi-Level should keep direct
 
-
-
+## Band Diagram of Homo-Junction with Bias
 
 
 
