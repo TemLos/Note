@@ -159,9 +159,6 @@ $$
 When calculate depletion region width, to make it easy to understand, usually use _depletion approximation_.
 In depletion approximation, there are only ionization center, and no free electrons, thus no generation and recombination.
 
-
-
-
 Free carrier concentration under depletion approximation
 $$
 n(x)=\begin{cases}
@@ -178,6 +175,9 @@ p(x)=\begin{cases}
 0, x\gt |x_{n}|
 \end{cases}
 $$
+
+_Note_ : Displacement is continuous across the interface ,but field need not to be
+
 ### Homo-Junction
 ![[9ece81aeec071bfccd0d409a5ff0386.jpg]]
 
