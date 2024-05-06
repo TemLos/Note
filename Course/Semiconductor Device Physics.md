@@ -92,6 +92,24 @@ In Shcrodinger Equation, we have usual operators
 # Lecture 3 Band Structure
 
 # Second Part —— Device
+# PN Junctions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 $$
 \frac{\partial^{2}\psi_i}{\partial x^{2}}=-\frac{q}{\vec\varepsilon}[N_{D}-n(x)]

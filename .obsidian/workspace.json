@@ -196,11 +196,13 @@
       "command-palette:打开命令面板": false,
       "remotely-save:Remotely Save": false,
       "oz-clear-unused-images:Clear Unused Images": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "translate:Open translation view": false
     }
   },
   "active": "ec0dae0cd76f9913",
   "lastOpenFiles": [
+    "Course/Semiconductor Device Physics.md.baiduyun.uploading.cfg",
     "NOTE",
     "新建文件夹",
     "_image/Timing.pdf.baiduyun.uploading.cfg",
@@ -211,7 +213,6 @@
     "Others/摄影后期.md.baiduyun.uploading.cfg",
     "Others/摄影前期.md.baiduyun.uploading.cfg",
     "Others/产业报告.md.baiduyun.uploading.cfg",
-    "Others/Week06.md.baiduyun.uploading.cfg",
     "Course/Nano Electronics.md",
     "Course/Semiconductor Device Physics.md",
     "Supplement/Schrodinger Equation.md",
