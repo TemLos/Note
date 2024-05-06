@@ -8,10 +8,10 @@
   "quick-latex",
   "find-unlinked-files",
   "obsidian-auto-link-title",
-  "obsidian-git",
   "floating-toc",
   "translate",
   "obsidian-image-layouts",
   "better-export-pdf",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "obsidian-git"
 ]
