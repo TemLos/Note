@@ -130,7 +130,28 @@ In Shcrodinger Equation, we have usual operators
 
 ![[image_218.png|242]]
 
-## 
+## Space Charge Region
+PN Junction consists of P-type and N-type piece.
+
+![[image_221.png]]
+
+Consider diffusion dirved by gradients:
+$$
+\begin{align*}
+J_{p,diff}=-qD_{p}\frac{dp}{dx}\\
+J_{n,diff}=-qD_{n}\frac{dn}{dx}
+\end{align*}
+$$
+And it will result in a barrier across the depletion region which is also called _space charge region_
+
+![[image_220.png]]
+
+$$
+\begin{align*}
+J_{n}=q\mu _{n}n\xi +qD_{n}\frac{dn}{dx}=n\mu_{n}\frac{dE_{Fn}}{dx}\\
+J_{p}=q\mu _{p}p\xi +qD_{p}\frac{dp}{dx}=n\mu_{n}\frac{dE_{Fn}}{dx}
+\end{align*}
+$$
 ## Band Diagram in Equilibrium
 ### Homo-Junction
 ![[9ece81aeec071bfccd0d409a5ff0386.jpg]]
@@ -145,7 +166,7 @@ In Shcrodinger Equation, we have usual operators
 8. $E_{F}$ : Fermi-level
 9. $\Delta E$ : Difference between $E_{F}$ and $E_{c}$ or $E_{v}$. Depends on doping. 
 
-![[image_220.png]]
+
 ### Hetero-Junction
 
 ## Band Diagram of Homo-Junction with Bias

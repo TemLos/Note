@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Course/Semiconductor Device Physics.md",
+                "file": "Others/latex符号.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -200,9 +200,13 @@
       "translate:Open translation view": false
     }
   },
-  "active": "ec0dae0cd76f9913",
+  "active": "fa556553321309b0",
   "lastOpenFiles": [
     "Course/Semiconductor Device Physics.md.baiduyun.uploading.cfg",
+    "Others/latex符号.md",
+    "Course/Semiconductor Device Physics.md",
+    "_image/image_221.png.baiduyun.uploading.cfg",
+    "_image/image_221.png",
     "_image/image_220.png.baiduyun.uploading.cfg",
     "_image/image_220.png",
     "_image/9ece81aeec071bfccd0d409a5ff0386.jpg.baiduyun.uploading.cfg",
@@ -212,16 +216,12 @@
     "_image/image_218.png.baiduyun.uploading.cfg",
     "_image/image_218.png",
     "image_1.png",
-    "Course/Semiconductor Device Physics.md",
     "image_1.png.baiduyun.uploading.cfg",
     "Supplement/Schrodinger Equation.md",
     "NOTE",
     "新建文件夹",
     "_image/Timing.pdf.baiduyun.uploading.cfg",
-    "Supplement/Schrodinger Equation.md.baiduyun.uploading.cfg",
-    "Supplement/Leakage Current Mechanisms.md.baiduyun.uploading.cfg",
     "Course/Nano Electronics.md",
-    "Others/latex符号.md",
     "Course/Digital Integrated Circuit.md",
     "Course/Digital Integrated Circuit--Literature Review.md",
     "Course/模拟集成电路.md",
@@ -243,7 +243,6 @@
     "_image/image_216.png",
     "_image/image_215.png",
     "_image/image_214.png",
-    "_image/image_213.png",
     "Supplement/Crystal.md",
     "Others/Cadence.md",
     "Supplement/Fan-out 4.md",
