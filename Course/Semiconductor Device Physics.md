@@ -91,8 +91,42 @@ In Shcrodinger Equation, we have usual operators
 
 # Lecture 3 Band Structure
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Lecture 4 Stats
+
+# Lecture 5 Recombination & Generation
+
+# Lecture 6 Transport
+
 # Second Part —— Device
-# PN Junctions
+# Lecture 7 PN Junctions
 
 
 
