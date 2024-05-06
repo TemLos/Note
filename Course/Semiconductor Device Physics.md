@@ -130,11 +130,22 @@ In Shcrodinger Equation, we have usual operators
 
 ![[image_218.png|242]]
 
+## 
 ## Band Diagram in Equilibrium
 ### Homo-Junction
 ![[9ece81aeec071bfccd0d409a5ff0386.jpg]]
 
-1. $\Chi$ 
+1. $\chi_{e}$ : Electron Affinity
+2. $\Phi_{bi}$ : Building-in voltage
+3. $W_{D}$ : Diffusion width
+4. $\Phi_{WF}$ : Work-function
+5. $E_{g}$ : Band gap
+6. $E_{c}$ : Carrier band level
+7. $E_{v}$ : Value band level
+8. $E_{F}$ : Fermi-level
+9. $\Delta E$ : Difference between $E_{F}$ and $E_{c}$ or $E_{v}$. Depends on doping. 
+
+![[image_220.png]]
 ### Hetero-Junction
 
 ## Band Diagram of Homo-Junction with Bias
