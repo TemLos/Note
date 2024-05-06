@@ -158,6 +158,7 @@ $$
 
 When calculate depletion region width, to make it easy to understand, usually use _depletion approximation_.
 In depletion approximation, there are only ionization center, and no free electrons, thus no generation and recombination.
+How many carriers going in, how many carriers going out.
 
 Free carrier concentration under depletion approximation
 $$
@@ -190,16 +191,16 @@ For
 1. $\chi_{e}$ : Electron Affinity
 2. $\Phi_{bi}$ : Building-in voltage approx to _0.7V_
 		$q\Phi_{bi}=kTln\frac{N_{A}N_{D}}{N_{V}N_{C}exp(\frac{-E_{g}}{kT})}+(\xi_{p}-\xi_{n})=kTln\frac{N_{A}N_{D}}{n^{2}_{i}} = E_{Fn}-E_{Fp}$
-1. $W_{D}$ : Diffusion width
+3. $W_{D}$ : Diffusion width
 $$
 	W_{D}=\sqrt{(\frac{1}{N_{A}}+\frac{1}{N_{D}})\frac{2q\Phi_{bi}}{\varepsilon_{si}}}  
 $$
-3. $\Phi_{WF}$ : Work-function
-4. $E_{g}$ : Band gap
-5. $E_{c}$ : Carrier band level
-6. $E_{v}$ : Value band level
-7. $E_{F}$ : Fermi-level
-8. $\Delta E$ : Difference between $E_{F}$ and $E_{c}$ or $E_{v}$. Depends on doping.
+4. $\Phi_{WF}$ : Work-function
+5. $E_{g}$ : Band gap
+6. $E_{c}$ : Carrier band level
+7. $E_{v}$ : Value band level
+8. $E_{F}$ : Fermi-level
+9. $\Delta E$ : Difference between $E_{F}$ and $E_{c}$ or $E_{v}$. Depends on doping.
 $$
 \begin{cases}
 \Delta E_{1}=kTln\frac{N_{A}}{p} \\
@@ -212,11 +213,34 @@ $$
 
 ## Band Diagram of Homo-Junction with Bias
 ### Forward Bias
+![[image_225.png]]
 
+Consider depletion approximation, no recombination and generation in $W_{D}(V_{F})$
+$$
+\begin{align*}
+J(x_{p}(V_{F})) &= J_{n}(x_{p}(V_{F}))+J_{p}(x_{p}(V_{F}))\\
+&= J_{n}(x_{n}(V_{F}))+J_{p}(x_{n}(V_{F}))
+\end{align*}
+$$
+Because
+$$
+\begin{align*}
+n=N_{c}exp(\frac{E_{F}-E_{C}}{kT})\Rightarrow \frac{n_{p}(x_{p})}{n_{p}(-\infty)}=exp(\frac{qV_{F}}{kT}) 
+\end{align*}
+$$
+$$
+\begin{align*}
+J_{n}(x_{p})&= qD_{n}\frac{\partial n}{\partial x}\\
+&= qD_{n}\frac{n_{p0}-n_{p0}\ exp(\frac{qV_{F}}{kT})}{-x_p(V_{F})+W_{1}}\\
+&\propto J_{sn}[exp(\frac{qV_{F}}{kT})-1]
+\end{align*}
+$$
 ### Reverse Bias
+![[image_224.png]]
+## Equal Circuit Model
 
 
-
+# Lecture 8 Bipolar Junction Transistor
 
 
 
