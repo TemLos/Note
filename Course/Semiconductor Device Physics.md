@@ -177,6 +177,11 @@ p(x)=\begin{cases}
 \end{cases}
 $$
 
+![[image_226.png|425]]
+
+By solveing possion equation, max field can be $E_{m}= \frac{qN_{D}}{\varepsilon}x_{n}=\frac{qN_{A}}{\varepsilon}x_{p}$
+So we know $N_{A}x_{p}=N_{D}x_{n}$
+
 _Note_ : Displacement is continuous across the interface ,but field need not to be. 
 Because of uneven ionic charge in depletion region, so field can be discontinuous.
 Because of free electricity can't be discrete, so displacement should be continuous.
@@ -228,6 +233,7 @@ $$
 n=N_{c}exp(\frac{E_{F}-E_{C}}{kT})\Rightarrow \frac{n_{p}(x_{p})}{n_{p}(-\infty)}=exp(\frac{qV_{F}}{kT}) 
 \end{align*}
 $$
+So we have
 $$
 \begin{align*}
 J_{n}(x_{p})&= qD_{n}\frac{\partial n}{\partial x}\\
