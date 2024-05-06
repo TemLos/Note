@@ -128,6 +128,7 @@ In Shcrodinger Equation, we have usual operators
 # Second Part —— Device
 # Lecture 7 PN Junctions
 
+![[image_218.png]]
 
 
 
