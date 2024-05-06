@@ -133,6 +133,7 @@ In Shcrodinger Equation, we have usual operators
 ## Band Diagram in Equilibrium
 ### Homo-Junction
 
+### Hetero-Junction
 
 ## Band Diagram of Homo-Junction with Bias
 
