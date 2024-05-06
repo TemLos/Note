@@ -176,8 +176,10 @@ p(x)=\begin{cases}
 \end{cases}
 $$
 
-_Note_ : Displacement is continuous across the interface ,but field need not to be
-
+_Note_ : Displacement is continuous across the interface ,but field need not to be. 
+Because of uneven ionic charge in depletion region, so field can be discontinuous.
+Because of free electricity can't be discrete, so displacement should be continuous.
+![[image_223.png]]
 ### Homo-Junction
 ![[9ece81aeec071bfccd0d409a5ff0386.jpg]]
 
