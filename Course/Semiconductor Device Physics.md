@@ -236,14 +236,18 @@ n_{p}|_{x\rightarrow-\infty} &=n_{P0}\\
 $$
 $$
 \begin{align*}
-n_P(-x_{p})=n_{N0}exp(-(q(V_bi)))
+n_P(-x_{p})&= n_{N0}exp\left(-\frac{q(V_{bi}-V_{F})}{kT}\right) \\
+&= n_{N0}exp\left(-\frac{qV_{bi}}{kT}\right)exp\left(\frac{qV}{KT}\right)\\
+&= n_{P0}exp\left(\frac{qV}{kT}\right)
 \end{align*}
 $$
+Similarly
 $$
-\begin{align*}
-n=N_{c}exp(\frac{E_{F}-E_{C}}{kT})\Rightarrow \frac{n_{p}(x_{p})}{n_{p}(-\infty)}=exp(\frac{qV_{F}}{kT}) 
-\end{align*}
+p_{N}(x_{n})=p_{N0}exp\frac{qV}{kT} 
 $$
+
+![[image_227.png]]
+
 So we have
 $$
 \begin{align*}
