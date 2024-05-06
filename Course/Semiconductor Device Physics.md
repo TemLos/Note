@@ -179,19 +179,21 @@ $$
 _Note_ : Displacement is continuous across the interface ,but field need not to be. 
 Because of uneven ionic charge in depletion region, so field can be discontinuous.
 Because of free electricity can't be discrete, so displacement should be continuous.
+
 ![[image_223.png]]
 ### Homo-Junction
 ![[9ece81aeec071bfccd0d409a5ff0386.jpg]]
 
 1. $\chi_{e}$ : Electron Affinity
 2. $\Phi_{bi}$ : Building-in voltage approx to _0.7V_
-3. $W_{D}$ : Diffusion width
-4. $\Phi_{WF}$ : Work-function
-5. $E_{g}$ : Band gap
-6. $E_{c}$ : Carrier band level
-7. $E_{v}$ : Value band level
-8. $E_{F}$ : Fermi-level
-9. $\Delta E$ : Difference between $E_{F}$ and $E_{c}$ or $E_{v}$. Depends on doping. 
+		$q\Phi_{bi}=kTln\frac{N_{A}N_{D}}{N_{V}N_{C}exp(\frac{-E_{g}}{kT)+(\xi_{p}-\xi_{n})})}=kTln\frac{N_{A}N_{D}}{n^{2}_{i}}$
+1. $W_{D}$ : Diffusion width
+2. $\Phi_{WF}$ : Work-function
+3. $E_{g}$ : Band gap
+4. $E_{c}$ : Carrier band level
+5. $E_{v}$ : Value band level
+6. $E_{F}$ : Fermi-level
+7. $\Delta E$ : Difference between $E_{F}$ and $E_{c}$ or $E_{v}$. Depends on doping. 
 
 
 ### Hetero-Junction
