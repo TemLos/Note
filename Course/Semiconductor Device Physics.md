@@ -130,12 +130,9 @@ In Shcrodinger Equation, we have usual operators
 
 ![[image_218.png|242]]
 
-## Band Diagram of Homo-Junction in Equilibrium
-For a PN Junction at equilibrium, we have
+## Band Diagram in Equilibrium
+### Homo-Junction
 
-![[image_219.png]]
-
-- The Fermi-Level should keep direct
 
 ## Band Diagram of Homo-Junction with Bias
 
