@@ -143,8 +143,10 @@ J_{p,diff}=-qD_{p}\frac{dp}{dx}\\
 J_{n,diff}=-qD_{n}\frac{dn}{dx}
 \end{align*}
 $$
+After diffusion, dopers lose electrons and become $N_{D}^{+}$, accepters get electrons and become $N_{A}^{-}$
 And it will result in a barrier across the depletion region which is also called _space charge region_
 
+![[image_222.png]]
 ![[image_220.png]]
 
 $$
