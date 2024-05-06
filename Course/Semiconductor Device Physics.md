@@ -268,7 +268,9 @@ $$
 ![[image_228.png]]
 ## Equal Circuit Model
 
-
+$$
+C_j=\sqrt{\frac{\varepsilon_{Si} q(\frac{N_{A}N_{D}}{N_{A}N_{D}})}{2(|V_{r}|\Phi_{b}-\frac{2kT}{q})}}
+$$
 # Lecture 8 Bipolar Junction Transistor
 
 
@@ -286,9 +288,7 @@ $$
 \vec \varepsilon q\frac{\partial \psi_i}{\partial x}=\sqrt{\frac{2qN_{D}}{\varepsilon_{si}}[\psi_{i}(x)-\psi_{io}]+\frac{kT}{q}[e^{q(\psi_{io}-\psi_{i}(x))}]}
 $$
 
-$$
-C_j=\sqrt{\frac{\varepsilon_{Si} q(\frac{N_{A}N_{D}}{N_{A}N_{D}})}{2(|V_{r}|\Phi_{b}-\frac{2kT}{q})}}
-$$
+
 $$
 \beta=\frac{I_{c}}{I_{b}}=\frac{J_{n,diff}}{J_{p,diff}}
 $$
