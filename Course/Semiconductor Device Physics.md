@@ -132,11 +132,15 @@ In Shcrodinger Equation, we have usual operators
 
 ## Band Diagram in Equilibrium
 ### Homo-Junction
+![[9ece81aeec071bfccd0d409a5ff0386.jpg]]
 
+1. $\Chi$ 
 ### Hetero-Junction
 
 ## Band Diagram of Homo-Junction with Bias
+### Forward Bias
 
+### Reverse Bias
 
 
 
