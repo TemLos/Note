@@ -130,7 +130,7 @@ In Shcrodinger Equation, we have usual operators
 
 ![[image_218.png|242]]
 
-## Space Charge Region
+## Depletion Region
 PN Junction consists of P-type and N-type piece.
 
 ![[image_221.png]]
@@ -148,16 +148,20 @@ And it will result in a barrier across the depletion region which is also called
 
 $$
 \begin{align*}
-J_{n}=q\mu _{n}n\xi +qD_{n}\frac{dn}{dx}=n\mu_{n}\frac{dE_{Fn}}{dx}\\
-J_{p}=q\mu _{p}p\xi +qD_{p}\frac{dp}{dx}=n\mu_{n}\frac{dE_{Fn}}{dx}
+J_{n}=q\mu _{n}n\xi -qD_{n}\frac{dn}{dx}=n\mu_{n}\frac{dE_{Fn}}{dx}\\
+J_{p}=q\mu _{p}p\xi -qD_{p}\frac{dp}{dx}=n\mu_{n}\frac{dE_{Fp}}{dx}
 \end{align*}
 $$
+
+### Depletion Approximation
+When calculate energy at interface, to make it easy to understand, usually use _depletion approximation_.
+In depletion approximation, there are only ionization center, and no free electrons, thus no generation and recombination
 ## Band Diagram in Equilibrium
 ### Homo-Junction
 ![[9ece81aeec071bfccd0d409a5ff0386.jpg]]
 
 1. $\chi_{e}$ : Electron Affinity
-2. $\Phi_{bi}$ : Building-in voltage
+2. $\Phi_{bi}$ : Building-in voltage approx to _0.7V_
 3. $W_{D}$ : Diffusion width
 4. $\Phi_{WF}$ : Work-function
 5. $E_{g}$ : Band gap
