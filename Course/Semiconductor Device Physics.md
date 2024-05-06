@@ -91,34 +91,6 @@ In Shcrodinger Equation, we have usual operators
 
 # Lecture 3 Band Structure
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Lecture 4 Stats
 
 # Lecture 5 Recombination & Generation
@@ -202,7 +174,8 @@ $$
 $$
 $$
 \begin{cases}
-x_{p}= W_{D}\sqrt{N_}
+x_{p}= W_{D}\left(\frac{N_{D}}{N_{A}+N_{D}}\right) \\
+x_{n}= W_{D}\left(\frac{N_{D}}{N_{A}+N_{D}}\right)
 \end{cases}
 $$
 4. $\Phi_{WF}$ : Work-function
@@ -263,7 +236,7 @@ J_{p}(x_{n}) &= qD_{p}\frac{p_{n0}-p_{n0}\ exp(\frac{qV_{F}}{kT})}{-x_n(V_{F})+W
 &\propto J_{sp}[exp(\frac{qV_{F}}{kT})-1]\\
 \end{align*}
 $$
-Where $J_{s}$ is _reverse saturation current_.
+Where $J_{s}$ is _reverse saturation current density_.
 $$
 J_{s}=qn^{2}_{i}\left(\frac{D_{p}}{L_{p}N_{D}}+ \frac{D_{n}}{L_{n}N_{A}}\right)
 $$
@@ -274,7 +247,7 @@ $$
 ## Equal Circuit Model
 
 $$
-C_j=\sqrt{\frac{\varepsilon_{Si} q(\frac{N_{A}N_{D}}{N_{A}N_{D}})}{2(|V_{r}|\Phi_{b}-\frac{2kT}{q})}}
+C_j=\sqrt{\frac{\varepsilon_{Si} q(\frac{N_{A}N_{D}}{N_{A}+N_{D}})}{2(|V_{r}|\Phi_{b}-\frac{2kT}{q})}}=\frac{\varepsilon_{si}}{W}
 $$
 # Lecture 8 Bipolar Junction Transistor
 
