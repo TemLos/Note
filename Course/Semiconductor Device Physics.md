@@ -130,7 +130,8 @@ In Shcrodinger Equation, we have usual operators
 
 ![[image_218.png|242]]
 
-## Depletion Region
+## Band Diagram in Equilibrium
+### Depletion Approximation
 PN Junction consists of P-type and N-type piece.
 
 ![[image_221.png]]
@@ -153,10 +154,19 @@ J_{p}=q\mu _{p}p\xi -qD_{p}\frac{dp}{dx}=n\mu_{n}\frac{dE_{Fp}}{dx}
 \end{align*}
 $$
 
-### Depletion Approximation
-When calculate energy at interface, to make it easy to understand, usually use _depletion approximation_.
-In depletion approximation, there are only ionization center, and no free electrons, thus no generation and recombination
-## Band Diagram in Equilibrium
+When calculate depletion region width, to make it easy to understand, usually use _depletion approximation_.
+In depletion approximation, there are only ionization center, and no free electrons, thus no generation and recombination.
+
+
+
+
+Free carrier concentration under depletion approximation
+$$
+n(x)=\begin{cases}
+\frac{n^{2}_{i}}{N_{A}}, x\lt -|x_{p}| \\
+0, 
+\end{cases}
+$$
 ### Homo-Junction
 ![[9ece81aeec071bfccd0d409a5ff0386.jpg]]
 
