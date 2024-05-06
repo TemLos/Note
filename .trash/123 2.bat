@@ -1,1 +1,0 @@
-ren *.md.alist_to_delete *.md 
