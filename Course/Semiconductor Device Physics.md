@@ -191,12 +191,15 @@ For
 2. $\Phi_{bi}$ : Building-in voltage approx to _0.7V_
 		$q\Phi_{bi}=kTln\frac{N_{A}N_{D}}{N_{V}N_{C}exp(\frac{-E_{g}}{kT})}+(\xi_{p}-\xi_{n})=kTln\frac{N_{A}N_{D}}{n^{2}_{i}} = E_{Fn}-E_{Fp}$
 1. $W_{D}$ : Diffusion width
-2. $\Phi_{WF}$ : Work-function
-3. $E_{g}$ : Band gap
-4. $E_{c}$ : Carrier band level
-5. $E_{v}$ : Value band level
-6. $E_{F}$ : Fermi-level
-7. $\Delta E$ : Difference between $E_{F}$ and $E_{c}$ or $E_{v}$. Depends on doping.
+$$
+	W_{D}=\sqrt{(\frac{1}{N_{A}}+\frac{1}{N_{D}})\frac{2q\Phi_{bi}}{\varepsilon_{si}}}  
+$$
+3. $\Phi_{WF}$ : Work-function
+4. $E_{g}$ : Band gap
+5. $E_{c}$ : Carrier band level
+6. $E_{v}$ : Value band level
+7. $E_{F}$ : Fermi-level
+8. $\Delta E$ : Difference between $E_{F}$ and $E_{c}$ or $E_{v}$. Depends on doping.
 $$
 \begin{cases}
 \Delta E_{1}=kTln\frac{N_{A}}{p} \\
