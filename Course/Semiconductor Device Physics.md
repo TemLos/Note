@@ -198,7 +198,12 @@ For
 		$q\Phi_{bi}=kTln\frac{N_{A}N_{D}}{N_{V}N_{C}exp(\frac{-E_{g}}{kT})}+(\xi_{p}-\xi_{n})=kTln\frac{N_{A}N_{D}}{n^{2}_{i}} = E_{Fn}-E_{Fp}$
 3. $W_{D}$ : Diffusion width
 $$
-	W_{D}=\sqrt{(\frac{1}{N_{A}}+\frac{1}{N_{D}})\frac{2q\Phi_{bi}}{\varepsilon_{si}}}  
+	W_{D}=\sqrt{(\frac{1}{N_{A}}+\frac{1}{N_{D}})\frac{2\varepsilon_{si}\Phi_{bi}}{q}}  
+$$
+$$
+\begin{cases}
+x_{p}= W_{D}\sqrt{N_}
+\end{cases}
 $$
 4. $\Phi_{WF}$ : Work-function
 5. $E_{g}$ : Band gap
