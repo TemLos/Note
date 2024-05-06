@@ -227,7 +227,18 @@ J(x_{p}(V_{F})) &= \underbrace{J_{n}(x_{p}(V_{F}))}_{minoring\ diff}+\underbrace
 &= J_{n}(x_{n}(V_{F}))+J_{p}(x_{n}(V_{F}))
 \end{align*}
 $$
-Because
+To get current, take 
+$$
+\begin{align*}
+p_{n}|_{x\rightarrow\infty} &=p_{N0}\\
+n_{p}|_{x\rightarrow-\infty} &=n_{P0}\\  
+\end{align*}
+$$
+$$
+\begin{align*}
+n_P(-x_{p})=n_{N0}exp(-(q(V_bi)))
+\end{align*}
+$$
 $$
 \begin{align*}
 n=N_{c}exp(\frac{E_{F}-E_{C}}{kT})\Rightarrow \frac{n_{p}(x_{p})}{n_{p}(-\infty)}=exp(\frac{qV_{F}}{kT}) 
