@@ -253,7 +253,11 @@ $$
 \begin{align*}
 J_{n}(x_{p})&= qD_{n}\frac{\partial n}{\partial x}\\
 &= qD_{n}\frac{n_{p0}-n_{p0}\ exp(\frac{qV_{F}}{kT})}{-x_p(V_{F})+W_{1}}\\
-&\propto J_{sn}[exp(\frac{qV_{F}}{kT})-1]
+&= \frac{qD_{n}n_{P0}}{L_{n}}[exp(\frac{qV_{F}}{kT})-1]\\
+&\propto J_{sn}[exp(\frac{qV_{F}}{kT})-1]\\
+J_{p}(x_{n}) &= qD_{p}\frac{p_{n0}-p_{n0}\ exp(\frac{qV_{F}}{kT})}{-x_n(V_{F})+W_{2}}\\\\
+ &= \frac{qD_{p}p_{N0}}{L_{p}}[exp(\frac{qV_{F}}{kT})-1]\\
+&\propto J_{sp}[exp(\frac{qV_{F}}{kT})-1]\\
 \end{align*}
 $$
 ### Reverse Bias
