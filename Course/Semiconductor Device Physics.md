@@ -212,7 +212,7 @@ $$
 \Delta E_{2}=kTln\frac{n}{N_{D}}
 \end{cases}
 $$
-
+_Note_ : electron affinity and bandgap define a material
 
 ### Hetero-Junction
 
