@@ -128,8 +128,14 @@ In Shcrodinger Equation, we have usual operators
 # Second Part —— Device
 # Lecture 7 PN Junctions
 
-![[image_218.png]]
+![[image_218.png|242]]
 
+## Band Diagram in equilibrium
+For a PN Junction at equilibrium, we have
+
+![[image_219.png]]
+
+- The Fermi-Level should keep direct
 
 
 
