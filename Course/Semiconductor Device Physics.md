@@ -130,7 +130,7 @@ In Shcrodinger Equation, we have usual operators
 
 ![[image_218.png|242]]
 
-## Band Diagram of homo-junction in equilibrium
+## Band Diagram of Homo-Junction in Equilibrium
 For a PN Junction at equilibrium, we have
 
 ![[image_219.png]]
