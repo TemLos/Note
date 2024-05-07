@@ -132,20 +132,27 @@ When calculate depletion region width, to make it easy to understand, usually us
 In depletion approximation, there are only ionization center, and no free electrons, thus no generation and recombination.
 How many carriers going in, how many carriers going out.
 
-Free carrier concentration under depletion approximation
+Free carrier concentration under **depletion approximation**
 $$
 n(x)=\begin{cases}
-\frac{n^{2}_{i}}{N_{A}}, x\lt -|x_{p}| \\
-0, -|x_{p}|\lt x \lt |x_{n}| \\
-N_{D}, x\gt |x_{n}|
+\frac{n^{2}_{i}}{N_{A}}&, x\lt -|x_{p}| \\
+0&, -|x_{p}|\lt x \lt |x_{n}| \\
+N_{D}&, x\gt |x_{n}|
 \end{cases}
 $$
 $$
 p(x)=\begin{cases}
-0, x\lt-|x_{p}| \\
--N_{A}, -|x_{p}|\lt x\lt 0 \\
-+N_{D}, 0\lt x\lt |x_{n}| \\
-0, x\gt |x_{n}|
+N_{A}&, x\lt -|x_{p}| \\
+0&, -|x_{p}|\lt x \lt |x_{n}| \\
+\frac{n^{2}_{i}}{N_{D}}&, x\gt |x_{n}|
+\end{cases}
+$$
+$$
+\rho(x)=\begin{cases}
+0&, x\lt-|x_{p}| \\
+-N_{A}&, -|x_{p}|\lt x\lt 0 \\
++N_{D}&, 0\lt x\lt |x_{n}| \\
+0&,  x\gt |x_{n}|
 \end{cases}
 $$
 
@@ -159,9 +166,6 @@ Because of uneven ionic charge in depletion region, so field can be discontinuou
 Because of free electricity can't be discrete, so displacement should be continuous.
 
 ![[image_223.png]]
-
-For 
-
 ### Homo-Junction
 ![[9ece81aeec071bfccd0d409a5ff0386.jpg]]
 
