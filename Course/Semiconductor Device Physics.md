@@ -1,6 +1,5 @@
 # First Part —— Semiconductor
 # Lecture 2 Elements of Quantum Mechanics
-![[Schrodinger Equation]]
 ## Wave Equation
 Classical (Newtonian) Mechanics
 $$
@@ -72,7 +71,9 @@ p=\frac{h}{\lambda}=\hbar k\ \rm (de\ Broglie's\ Law) \\
 E=\frac{p^{2}}{2m}+U\ \rm(energy\ of\ particle)
 \end{cases}
 $$
-We can find Schrodinger Equation
+We can find Schrodinger Equation.
+## Schrodinger Equation
+[[Schrodinger Equation]]
 $$
 i\hbar  \frac{\partial\Psi}{\partial t}=(\frac{-\hbar^{2}\nabla^{2}}{2m}+U)\Psi
 $$
@@ -86,8 +87,10 @@ Bring back to the equation, we then get the dispersion releationship
 $$
 E=\frac{p^{2}}{2m}=\frac{\hbar^{2}k^{2}}{2m} 
 $$
-
-In Shcrodinger Equation, we have usual operators
+In Shcrodinger Equation of free electrons in 1D, we have solution
+$$
+\Psi(x,t) = (Ae^{ikx}+ Be^{-ikx})e^{\frac{{-iEt} }{{h}}}= (Ae^{ikx}+ Be^{-ikx})e^{-\omega t}
+$$
 
 # Lecture 3 Band Structure
 
