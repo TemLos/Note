@@ -124,6 +124,9 @@ And it will result in a barrier across the depletion region which is also called
 ![[image_222.png]]
 ![[image_220.png]]
 
+_Note_: **Space Electron Region** and **Depletion Region** are not the same!
+- Space Electron Region: 
+- Depletion Region: 
 $$
 \begin{align*}
 J_{n}=q\mu _{n}n\xi -qD_{n}\frac{dn}{dx}=n\mu_{n}\frac{dE_{Fn}}{dx}\\
@@ -205,6 +208,7 @@ _Note_ : electron affinity and bandgap define a material
 ### Forward Bias
 ![[image_225.png]]
 
+Width of depletion region decrease when in forward bias.
 Consider depletion approximation, no recombination and generation in $W_{D}(V_{F})$
 $$
 \begin{align*}
@@ -228,7 +232,7 @@ n_P(-x_{p})&= n_{N0}exp\left(-\frac{q(V_{bi}-V_{F})}{kT}\right) \\
 $$
 Similarly
 $$
-p_{N}(x_{n})=p_{N0}exp\frac{qV}{kT} 
+p_{N}(x_{n})=p_{N0}exp\left(\frac{qV}{kT} \right)
 $$
 
 ![[image_227.png]]
@@ -250,6 +254,9 @@ $$
 ![[image_229.png]]
 ### Reverse Bias
 ![[image_224.png]]
+
+Width of depletion region increase when in reverse bias.
+
 ![[image_228.png]]
 ## Equal Circuit Model
 

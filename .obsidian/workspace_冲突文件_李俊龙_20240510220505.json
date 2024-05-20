@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Course/Semiconductor Device Physics.md",
+                "file": "Course/半导体物理.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Course/Semiconductor Device Physics.md",
+                "file": "Course/半导体物理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Course/Semiconductor Device Physics.md",
+                "file": "Course/半导体物理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Course/Semiconductor Device Physics.md"
+                "file": "Course/半导体物理.md"
               }
             }
           }
@@ -202,22 +202,19 @@
   },
   "active": "fa556553321309b0",
   "lastOpenFiles": [
-    "Course/Semiconductor Device Physics.md.baiduyun.uploading.cfg",
-    "Supplement/Schrodinger Equation.md",
-    "Course/Semiconductor Device Physics.md",
-    "Course/Analog Integrity Circuit.md",
-    "Course/Analog Integrity Circuit.md.baiduyun.uploading.cfg",
-    "Course/半导体物理.md",
-    "Course/Digital Integrated Circuit--Reading(1).md.baiduyun.downloading.cfg",
-    "Course/Digital Integrated Circuit--Reading(1).md.baiduyun.downloading",
-    "Course/Digital Integrated Circuit--Literature Review(1).md.baiduyun.downloading.cfg",
-    "Course/Digital Integrated Circuit--Literature Review(1).md.baiduyun.downloading",
     "Course/Applied Numerical Computing(1).md.baiduyun.downloading.cfg",
     "Course/Applied Numerical Computing(1).md.baiduyun.downloading",
     "Course/Analog Integrity Circuit(1).md.baiduyun.downloading.cfg",
     "Course/Analog Integrity Circuit(1).md.baiduyun.downloading",
+    "Course/半导体物理.md.baiduyun.uploading.cfg",
+    "Course/Semiconductor Device Physics.md",
+    "Supplement/Schrodinger Equation.md",
+    "Course/Semiconductor Device Physics.md.baiduyun.uploading.cfg",
     "Course/VLSI Flow.md",
     "Note/Course/Semiconductor Device Physics.md",
+    "Note/Course/Semiconductor Device Physics.md.baiduyun.uploading.cfg",
+    "Supplement/Schrodinger Equation.md.baiduyun.uploading.cfg",
+    "Note/_image/量子输运理论基础.pdf",
     "Note/_image/纳米电子学_image_8.jpeg",
     "Note/_image/纳米电子学_image_20.jpeg",
     "Note/_image/纳米电子学_image_19.jpeg",
@@ -228,6 +225,8 @@
     "Note/_image/数字集成电路设计_image_79.jpeg",
     "Note/_image/数字集成电路设计_image_3.png",
     "Note/_image/应用数值计算_image_39.jpeg",
+    "Note/Supplement/Schrodinger Equation.md.baiduyun.uploading.cfg",
+    "Note/Supplement/Leakage Current Mechanisms.md.baiduyun.uploading.cfg",
     "Note/Supplement/Leakage Current Mechanisms.md",
     "Note/Supplement/Schrodinger Equation.md",
     "Note/Supplement/Fan-out 4.md",
@@ -247,6 +246,8 @@
     "Note/Course/模拟集成电路.md",
     "Note/Course/半导体物理.md",
     "Note/Course/VLSI Flow.md",
+    "Note/Course/Dynamic CMOS Logic VS Ratioed Logic.md",
+    "Note/Course/Nano Electronics.md",
     "未命名.canvas",
     "数字集成电路设计_image_1.canvas",
     "未命名 1.canvas"
