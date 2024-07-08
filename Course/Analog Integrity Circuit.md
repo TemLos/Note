@@ -41,6 +41,10 @@ Leff是有效沟道长度，Ldrawn是版图中的沟道长度。在生产MOS管�
 
 # Lecture 3 Single Stage Amplifier
 
+[zhuanlan.zhihu.com/p/564083453](https://zhuanlan.zhihu.com/p/564083453)
+$r_{o }= \lambda I_{D}$
+$\frac{1}{g_{m}}\ll r_{o}$
+$g_{m} r_{o}$ of short channel device should be 5~10
 姓名：兰林涛
 Q1: 为什么饱和之后电流还会上升？
 A：有效长度减小 沟长调制效应

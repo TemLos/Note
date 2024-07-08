@@ -34,19 +34,6 @@
             }
           },
           {
-            "id": "fa556553321309b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Course/Semiconductor Device Physics.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ec0dae0cd76f9913",
             "type": "leaf",
             "state": {
@@ -60,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Course/Semiconductor Device Physics.md",
+                "file": "Supplement/Schrodinger Equation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Course/Semiconductor Device Physics.md",
+                "file": "Supplement/Schrodinger Equation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -174,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Course/Semiconductor Device Physics.md"
+                "file": "Supplement/Schrodinger Equation.md"
               }
             }
           }
@@ -200,13 +187,17 @@
       "translate:Open translation view": false
     }
   },
-  "active": "fa556553321309b0",
+  "active": "3cdc61e38f5c866d",
   "lastOpenFiles": [
+    "Course/Digital Integrated Circuit.md",
+    "Cryogenic CMOS/低温CMOS.md",
+    "Cryogenic CMOS/低温CMOS.md.baiduyun.uploading.cfg",
+    "Course/Analog Integrity Circuit.md",
+    "Course/Digital Integrated Circuit.md.baiduyun.uploading.cfg",
+    "Course/Analog Integrity Circuit.md.baiduyun.uploading.cfg",
+    "Course/Semiconductor Device Physics.md",
     "Course/Semiconductor Device Physics.md.baiduyun.uploading.cfg",
     "Supplement/Schrodinger Equation.md",
-    "Course/Semiconductor Device Physics.md",
-    "Course/Analog Integrity Circuit.md",
-    "Course/Analog Integrity Circuit.md.baiduyun.uploading.cfg",
     "Course/半导体物理.md",
     "Course/Digital Integrated Circuit--Reading(1).md.baiduyun.downloading.cfg",
     "Course/Digital Integrated Circuit--Reading(1).md.baiduyun.downloading",
@@ -214,8 +205,6 @@
     "Course/Digital Integrated Circuit--Literature Review(1).md.baiduyun.downloading",
     "Course/Applied Numerical Computing(1).md.baiduyun.downloading.cfg",
     "Course/Applied Numerical Computing(1).md.baiduyun.downloading",
-    "Course/Analog Integrity Circuit(1).md.baiduyun.downloading.cfg",
-    "Course/Analog Integrity Circuit(1).md.baiduyun.downloading",
     "Course/VLSI Flow.md",
     "Note/Course/Semiconductor Device Physics.md",
     "Note/_image/纳米电子学_image_8.jpeg",
@@ -246,7 +235,6 @@
     "Note/Cryogenic CMOS/低温CMOS.md",
     "Note/Course/模拟集成电路.md",
     "Note/Course/半导体物理.md",
-    "Note/Course/VLSI Flow.md",
     "未命名.canvas",
     "数字集成电路设计_image_1.canvas",
     "未命名 1.canvas"
