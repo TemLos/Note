@@ -683,6 +683,10 @@
         "zu"
       ],
       "version": "1.0.1"
+    },
+    "fasttext": {
+      "default_usage": false,
+      "version": "1.0.0"
     }
   },
   "local_glossary": false

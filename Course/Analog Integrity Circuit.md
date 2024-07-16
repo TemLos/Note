@@ -23,6 +23,14 @@ Leff是有效沟道长度，Ldrawn是版图中的沟道长度。在生产MOS管�
 
 # Lecture 2 MOS Device Physics
 
+
+
+Transit Frequency
+- With Frequency increasing, transconductor becomes less than 1.
+- That is because input capacitance decreases, so input voltage decreases and inducing current is lower.
+- Lower channel length brings higher $F_{T}$ and larger mismatch.
+ - $\omega = 2\pi f_{T}$
+
 姓名：王禁城；
 问题：公式里哪一项代表了掺杂浓度；
 答案：N

@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Supplement/Schrodinger Equation.md",
+                "file": "Course/Analog Integrity Circuit.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -105,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5
+    "width": 200
   },
   "right": {
     "id": "d1f976f375fc2565",
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Supplement/Schrodinger Equation.md",
+                "file": "Course/Analog Integrity Circuit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Supplement/Schrodinger Equation.md",
+                "file": "Course/Analog Integrity Circuit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Supplement/Schrodinger Equation.md"
+                "file": "Course/Analog Integrity Circuit.md"
               }
             }
           }
@@ -181,30 +181,36 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "remotely-save:Remotely Save": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "obsidian-trash-explorer:Open trash explorer": false,
+      "remotely-save:Remotely Save": false,
       "translate:Open translation view": false
     }
   },
   "active": "3cdc61e38f5c866d",
   "lastOpenFiles": [
-    "Course/Digital Integrated Circuit.md",
-    "Cryogenic CMOS/低温CMOS.md",
-    "Cryogenic CMOS/低温CMOS.md.baiduyun.uploading.cfg",
-    "Course/Analog Integrity Circuit.md",
-    "Course/Digital Integrated Circuit.md.baiduyun.uploading.cfg",
     "Course/Analog Integrity Circuit.md.baiduyun.uploading.cfg",
+    "Course/模拟集成电路.md.baiduyun.uploading.cfg",
+    "Course/模拟集成电路.md",
+    "Course/Analog Integrity Circuit.md",
+    "Course/Cadence Training.md",
+    "Course/Cadence Training.md.baiduyun.uploading.cfg",
+    "_image/image_231.png.baiduyun.uploading.cfg",
+    "_image/image_230.png.baiduyun.uploading.cfg",
+    "Course/Dynamic CMOS Logic VS Ratioed Logic.md.baiduyun.uploading.cfg",
+    "Course/半导体物理.md",
+    "Course/Digital Integrated Circuit.md",
+    "_image/image_231.png",
+    "_image/image_230.png",
+    "Course/Dynamic CMOS Logic VS Ratioed Logic.md",
+    "Cryogenic CMOS/Relevant Knowledge.md",
+    "Supplement/Schrodinger Equation.md",
+    "Cryogenic CMOS/低温CMOS.md.baiduyun.uploading.cfg",
+    "Course/Digital Integrated Circuit.md.baiduyun.uploading.cfg",
     "Course/Semiconductor Device Physics.md",
     "Course/Semiconductor Device Physics.md.baiduyun.uploading.cfg",
-    "Supplement/Schrodinger Equation.md",
-    "Course/半导体物理.md",
     "Course/Digital Integrated Circuit--Reading(1).md.baiduyun.downloading.cfg",
     "Course/Digital Integrated Circuit--Reading(1).md.baiduyun.downloading",
-    "Course/Digital Integrated Circuit--Literature Review(1).md.baiduyun.downloading.cfg",
-    "Course/Digital Integrated Circuit--Literature Review(1).md.baiduyun.downloading",
-    "Course/Applied Numerical Computing(1).md.baiduyun.downloading.cfg",
-    "Course/Applied Numerical Computing(1).md.baiduyun.downloading",
     "Course/VLSI Flow.md",
     "Note/Course/Semiconductor Device Physics.md",
     "Note/_image/纳米电子学_image_8.jpeg",
@@ -215,8 +221,6 @@
     "Note/_image/数字集成电路设计_image_81.jpeg",
     "Note/_image/数字集成电路设计_image_80.jpeg",
     "Note/_image/数字集成电路设计_image_79.jpeg",
-    "Note/_image/数字集成电路设计_image_3.png",
-    "Note/_image/应用数值计算_image_39.jpeg",
     "Note/Supplement/Leakage Current Mechanisms.md",
     "Note/Supplement/Schrodinger Equation.md",
     "Note/Supplement/Fan-out 4.md",
@@ -231,10 +235,6 @@
     "Note/Others/MarkDown 教程.md",
     "Note/Others/latex符号.md",
     "Note/Others/Hspice.md",
-    "Note/Others/Cadence.md",
-    "Note/Cryogenic CMOS/低温CMOS.md",
-    "Note/Course/模拟集成电路.md",
-    "Note/Course/半导体物理.md",
     "未命名.canvas",
     "数字集成电路设计_image_1.canvas",
     "未命名 1.canvas"
