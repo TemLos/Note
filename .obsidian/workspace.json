@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Others/latex符号.md",
+                "file": "Course/Digital Integrated Circuit.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -175,9 +175,11 @@
   },
   "active": "020b90c3419e1955",
   "lastOpenFiles": [
-    "_image/image_234.png",
-    "Others/latex符号.md",
+    "_image/image_235.png",
+    "Course/Digital Integrated Circuit.md",
     "Course/Analog Integrity Circuit.md",
+    "Others/latex符号.md",
+    "_image/image_234.png",
     "_image/image_233.png",
     "Course/Semiconductor Device Physics.md",
     "_image/image_232.png",
@@ -190,7 +192,6 @@
     "_image/image_230.png.baiduyun.uploading.cfg",
     "Course/Dynamic CMOS Logic VS Ratioed Logic.md.baiduyun.uploading.cfg",
     "Course/半导体物理.md",
-    "Course/Digital Integrated Circuit.md",
     "_image/image_231.png",
     "_image/image_230.png",
     "Course/Dynamic CMOS Logic VS Ratioed Logic.md",
@@ -207,7 +208,6 @@
     "Note/_image/纳米电子学_image_19.jpeg",
     "Note/_image/纳米电子学_image_18.jpeg",
     "Note/_image/数字集成电路设计_image_82.jpeg",
-    "Note/_image/数字集成电路设计_image_81.jpeg",
     "Note/Supplement/Leakage Current Mechanisms.md",
     "Note/Supplement/Schrodinger Equation.md",
     "Note/Supplement/Fan-out 4.md",

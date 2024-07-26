@@ -128,9 +128,14 @@ $\pi$-Model
 # Lecture 3 Single Stage Amplifier
 
 [zhuanlan.zhihu.com/p/564083453](https://zhuanlan.zhihu.com/p/564083453)
-$r_{o }= \lambda I_{D}$
-$\frac{1}{g_{m}}\ll r_{o}$
+$r_{o }= \frac{1}{\lambda I_{D}}$
+$\frac{1}{g_{m}}\ll r_{o}$                                             
 $g_{m} r_{o}$ of short channel device should be 5~10
+
+Common Emiter
+
+
+Common Source
 
 
 
@@ -304,6 +309,31 @@ A：调整宽度比长度更容易且更精确，例如，可以将两个MOS并�
 
 
 # Lecture 6 Frequency Response
+![[Digital Integrated Circuit#MOS Capacitor]]
+One cap brings one pole and one zero.
+
+Find zero: find a freq. at which the output is 0 no matter what $V_{in}$ is.
+Find pole: find a freq. at which the output is $\infty$ no matter what $V_{in}$ is.
+
+Gain increases with 20dB/dec when going through a zero
+Gain decreases with 20dB/dec when going through a pole
+
+Miller Effect
+![[image_235.png]]
+_Note_: The gain of this OP is negative.
+$$
+\begin{align*}
+Z_{1}&= \frac{Z}{1+A_{V}}\\
+Z_{2}&= \frac{Z}{1+A^{-1}_{V}}
+\end{align*}
+$$
+Only in such conditions can Miller Effect be used: there are more than one path between input and output.
+
+Disadvantages of Miller Effect:
+1. It may eliminate zero
+2. It may forecast additional pole
+3. It is hard to calculate output impedance accurately
+
 姓名：孔震航
 Q：模拟电路分析中字母和角标的大小写的含义。
 A：字母大小写代表交流或直流，角标大小写代表有效值或瞬时值。

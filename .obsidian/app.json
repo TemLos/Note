@@ -1,4 +1,6 @@
 {
   "promptDelete": false,
-  "attachmentFolderPath": "_image"
+  "attachmentFolderPath": "_image",
+  "showLineNumber": true,
+  "vimMode": true
 }

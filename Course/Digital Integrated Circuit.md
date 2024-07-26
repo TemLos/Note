@@ -140,7 +140,7 @@ Capacitance becomes series combination of gate oxide and deletion capacitance.
 Channel makes $C_{GCB}$ drops to zero, we model capacitance by splitting oxide cap equally between source and drain.
 - Saturation region
 ![|525](image_70.jpeg)
-At pinch-off point, $V_GC=V_T$**?未完?**, In bottom line, $C_{GCS}=2/3WLC_{ox}$
+At pinch-off point, $V_{GD}\lt V_T$, In bottom line, $C_{GCS}=2/3WLC_{ox}$
 - Other capacitance
 Gate overlap capacitance
 $$
