@@ -132,7 +132,10 @@ $r_{o }= \frac{1}{\lambda I_{D}}$
 $\frac{1}{g_{m}}\ll r_{o}$                                             
 $g_{m} r_{o}$ of short channel device should be 5~10
 
-Common Emiter
+Method of extracting pole and zero
+- Dominant pole
+- Open circuit time constant
+Common Emitter
 
 
 Common Source
