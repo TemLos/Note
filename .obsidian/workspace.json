@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Course/Analog Integrity Circuit.md",
+                "file": "Course/Digital Integrated Circuit.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Course/Analog Integrity Circuit.md",
+                "file": "Course/Digital Integrated Circuit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Course/Analog Integrity Circuit.md",
+                "file": "Course/Digital Integrated Circuit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Course/Analog Integrity Circuit.md"
+                "file": "Course/Digital Integrated Circuit.md"
               }
             }
           }
@@ -175,10 +175,16 @@
   },
   "active": "020b90c3419e1955",
   "lastOpenFiles": [
+    "_image/4740_lecture16-domino-logic.pdf",
+    "_image/image_241.png",
+    "_image/image_240.png",
+    "_image/image_239.png",
+    "_image/image_238.png",
+    "_image/image_237.png",
+    "Course/Analog Integrity Circuit.md",
     "_image/image_236.png",
     "_image/image_235.png",
     "Course/Digital Integrated Circuit.md",
-    "Course/Analog Integrity Circuit.md",
     "Others/latex符号.md",
     "_image/image_234.png",
     "_image/image_233.png",
@@ -193,8 +199,6 @@
     "_image/image_230.png.baiduyun.uploading.cfg",
     "Course/Dynamic CMOS Logic VS Ratioed Logic.md.baiduyun.uploading.cfg",
     "Course/半导体物理.md",
-    "_image/image_231.png",
-    "_image/image_230.png",
     "Course/Dynamic CMOS Logic VS Ratioed Logic.md",
     "Cryogenic CMOS/Relevant Knowledge.md",
     "Supplement/Schrodinger Equation.md",
@@ -204,10 +208,6 @@
     "Course/Digital Integrated Circuit--Reading(1).md.baiduyun.downloading.cfg",
     "Course/VLSI Flow.md",
     "Note/Course/Semiconductor Device Physics.md",
-    "Note/_image/纳米电子学_image_8.jpeg",
-    "Note/_image/纳米电子学_image_20.jpeg",
-    "Note/_image/纳米电子学_image_19.jpeg",
-    "Note/_image/纳米电子学_image_18.jpeg",
     "Note/Supplement/Leakage Current Mechanisms.md",
     "Note/Supplement/Schrodinger Equation.md",
     "Note/Supplement/Fan-out 4.md",

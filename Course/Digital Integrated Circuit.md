@@ -516,7 +516,7 @@ Energy-delay product
 $$
 EDP=PDP\times t_p=P_{av}t^2_p=\frac{C_LV_{DD}^2}{2}t_p
 $$
-# Lecture 4 Static Complementary CMOS Logic Gates
+# Lecture 4 Complementary CMOS Logic Gates
 ## Static CMOS Logic
 ### Design
 #### NAND Gate
@@ -710,6 +710,30 @@ Impacts static power consumption due to subthreshold currents flowing through th
 	- Precharge time can be ignored($t_{pLH}=0$), but the presence of the evaluation transistors slows the $t_{pHL}$.
 - _No glitching_. By construction can have at most one transition per cycle
 
+### Domino Logic
+
+Reference: [[4740_lecture16-domino-logic.pdf]]
+
+![[image_237.png]]
+![[image_238.png]]
+
+For dynamic logic, PUN networks can't be cascaded. when cascaded with an equivalent gate, the pre-charged output of the second gate may be discharged before its inputs stabilize.
+
+![[image_239.png]]
+
+Use domino logic to make sure the pre-charged output is _always high_ or _low to  high_ unless evaluate.
+
+- Disadvantages
+	- Only _Non-Inverting_ logic can be implemented
+		- Use De Morgan or other logic transforms
+		- Use differential logic (dual )
+		- Use np-CMOS (zipper or NORA)
+	- Larger area than static logic
+	- higher power consumption than static.
+- Advantages
+	- Extremely fast circuits
+	- Inverter enable easy use of level restores
+![[image_240.png]]![[image_241.png]]
 ## Ratiod Logic and Ratioless Logic
 ![[image_32.png]]
 
