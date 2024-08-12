@@ -692,6 +692,8 @@ Impacts static power consumption due to subthreshold currents flowing through th
 - Full swing.
 - Bidirectionsl.
 ## Dynamic CMOS Logic 
+
+[数字集成电路（8）动态CMOS - 墨魂](https://mohun-8052.github.io/2022/05/01/%E6%95%B0%E5%AD%97%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF%EF%BC%888%EF%BC%89%E5%8A%A8%E6%80%81CMOS/)
 ![[image_22.png]]
 ### Static Properties
 - Dynamic relies on _temporary_ storage of signal on the capacitance.
@@ -714,12 +716,14 @@ Impacts static power consumption due to subthreshold currents flowing through th
 
 Reference: [[4740_lecture16-domino-logic.pdf]]
 
+
 ![[image_237.png]]
 ![[image_238.png]]
 
 For dynamic logic, PUN networks can't be cascaded. when cascaded with an equivalent gate, the pre-charged output of the second gate may be discharged before its inputs stabilize.
 
 ![[image_239.png]]
+![[image_242.png]]
 
 Use domino logic to make sure the pre-charged output is _always high_ or _low to  high_ unless evaluate.
 
