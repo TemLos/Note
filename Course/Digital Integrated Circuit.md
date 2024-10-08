@@ -1058,7 +1058,7 @@ For SRAM sizing, we should consider the limitation of write operation and read o
 _Note that $BL$ and $\bar {BL}$ are initialed at VDD(2.5V)._
 Read-disturb (read-upset): must limit the voltage rise on $\bar Q$ to prevent read-upsets from occurring, otherwise, the stored signal may be changed when reads.
 - M1 must be stronger(smaller resistance) than M5 when storing a 1.
-- M3 must be stronger than M6 when storing a 0.
+- M3 must be stronger than M6 whe n storing a 0.
 
 ![[image_133.png]]
 $$
