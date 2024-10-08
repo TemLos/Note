@@ -1,6 +1,3 @@
-# SSH
-Port 22
-> apt install openssh-server
 # 1panel
 Port 5001
 
@@ -159,4 +156,12 @@ WantedBy=multi-user.target
 # V2ray
 
 # Clash
+
+# Others
+## SSH
+Port 22
+> apt install openssh-server
+## htop
+> apt install htop
+
 
