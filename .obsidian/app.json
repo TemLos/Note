@@ -2,5 +2,5 @@
   "promptDelete": false,
   "attachmentFolderPath": "_image",
   "showLineNumber": true,
-  "vimMode": true
+  "vimMode": false
 }

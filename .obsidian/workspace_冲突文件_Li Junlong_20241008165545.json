@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Ubuntu Server.md",
+                "file": "Cryogenic CMOS/Relevant Knowledge.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -65,6 +65,14 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "5ccee9cb810dcca0",
+            "type": "leaf",
+            "state": {
+              "type": "trash-explorer",
+              "state": {}
+            }
           }
         ]
       }
@@ -86,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Ubuntu Server.md",
+                "file": "Cryogenic CMOS/Relevant Knowledge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Ubuntu Server.md",
+                "file": "Cryogenic CMOS/Relevant Knowledge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,69 +134,47 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Ubuntu Server.md"
+                "file": "Cryogenic CMOS/Relevant Knowledge.md"
               }
-            }
-          },
-          {
-            "id": "3bae48d5845dd8af",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "remotely-save:Remotely Save": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "obsidian-trash-explorer:Open trash explorer": false,
-      "translate:Open translation view": false,
-      "obsidian-git:Open Git source control": false
+      "translate:Open translation view": false
     }
   },
-  "active": "fde5cdbf9edf43d0",
+  "active": "1955e94e5d8df513",
   "lastOpenFiles": [
-    "Cryogenic CMOS/Relevant Knowledge.md",
+    "Course/Cadence Training.md.baiduyun.p.downloading",
+    "Course/Analog Integrity Circuit.md.baiduyun.p.downloading",
     "Linux/Ubuntu Server.md",
-    "Linux/Ubuntu Server.md.baiduyun.uploading.cfg",
-    "Others/Cadence.md.baiduyun.uploading.cfg",
-    "Course/Digital Integrated Circuit.md.baiduyun.uploading.cfg",
-    "Others/Linux.md.baiduyun.uploading.cfg",
-    "_image/image_242.png.baiduyun.uploading.cfg",
-    "_image/image_241.png.baiduyun.uploading.cfg",
-    "_image/image_240.png.baiduyun.uploading.cfg",
-    "_image/image_239.png.baiduyun.uploading.cfg",
-    "_image/image_238.png.baiduyun.uploading.cfg",
-    "_image/image_237.png.baiduyun.uploading.cfg",
-    "conflict-files-obsidian-git.md",
-    "_image/image_242.png",
-    "_image/image_241.png",
-    "_image/image_240.png",
-    "_image/image_239.png",
-    "_image/image_238.png",
-    "_image/image_237.png",
-    "_image/image_236.png",
-    "_image/image_235.png",
-    "_image/image_234.png",
-    "_image/image_233.png",
-    "Others/Linux.md",
     "Linux/Vim.md",
+    "Linux/Untitled.md.baiduyun.uploading.cfg",
+    "Linux/Ubuntu Server.md.baiduyun.uploading.cfg",
+    "Others/latex符号.md.baiduyun.uploading.cfg",
     "Others/latex符号.md",
     "Course/Digital Integrated Circuit.md",
+    "Linux/Ubuntu.md.baiduyun.uploading.cfg",
+    "Others/MarkDown 教程.md.baiduyun.uploading.cfg",
     "Others/MarkDown 教程.md",
+    "Linux",
     "Course/Digital Integrated Circuit--Literature Review.md",
     "Course/Digital Integrated Circuit--Reading.md",
     "Course/Cadence Training.md",
@@ -197,15 +183,31 @@
     "Course/模拟集成电路.md",
     "Course/半导体物理.md",
     "Course/Semiconductor Device Physics.md",
+    "Course/Analog Integrity Circuit.md.baiduyun.uploading.cfg",
+    "Course/模拟集成电路.md.baiduyun.uploading.cfg",
+    "Course/Cadence Training.md.baiduyun.uploading.cfg",
+    "_image/image_231.png",
+    "_image/image_230.png",
     "Course/Dynamic CMOS Logic VS Ratioed Logic.md",
+    "Cryogenic CMOS/Relevant Knowledge.md",
     "Supplement/Schrodinger Equation.md",
     "Course/VLSI Flow.md",
     "Note/Course/Semiconductor Device Physics.md",
+    "Note/_image/纳米电子学_image_8.jpeg",
+    "Note/_image/纳米电子学_image_20.jpeg",
+    "Note/_image/纳米电子学_image_19.jpeg",
+    "Note/_image/纳米电子学_image_18.jpeg",
+    "Note/_image/数字集成电路设计_image_82.jpeg",
+    "Note/_image/数字集成电路设计_image_81.jpeg",
+    "Note/_image/数字集成电路设计_image_80.jpeg",
+    "Note/_image/数字集成电路设计_image_79.jpeg",
     "Note/Supplement/Leakage Current Mechanisms.md",
     "Note/Supplement/Schrodinger Equation.md",
     "Note/Supplement/Fan-out 4.md",
     "Note/Supplement/Crystal.md",
     "Note/Others/摄影后期.md",
+    "Note/Others/摄影前期.md",
+    "Note/Others/产业报告.md",
     "未命名.canvas",
     "数字集成电路设计_image_1.canvas",
     "未命名 1.canvas"
