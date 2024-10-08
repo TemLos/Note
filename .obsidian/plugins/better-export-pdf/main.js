@@ -19881,22 +19881,15 @@ function modifyDest(doc) {
   });
   return data;
 }
-function convertMapKeysToLowercase(map) {
-  return new Map(Array.from(map).map(([key, value]) => [key == null ? void 0 : key.toLowerCase(), value]));
-}
 function fixAnchors(doc, dest, basename) {
-  const lowerDest = convertMapKeysToLowercase(dest);
   doc.querySelectorAll("a.internal-link").forEach((el, i) => {
-    var _a, _b, _c;
+    var _a, _b;
     const [title, anchor] = (_b = (_a = el.dataset.href) == null ? void 0 : _a.split("#")) != null ? _b : [];
-    if (anchor == null ? void 0 : anchor.startsWith("^")) {
-      el.href = (_c = el.dataset.href) == null ? void 0 : _c.toLowerCase();
-    }
     if ((anchor == null ? void 0 : anchor.length) > 0) {
       if ((title == null ? void 0 : title.length) > 0 && title != basename) {
         return;
       }
-      const flag3 = dest.get(anchor) || lowerDest.get(anchor == null ? void 0 : anchor.toLowerCase());
+      const flag3 = dest.get(anchor);
       if (flag3 && !anchor.startsWith("^")) {
         el.href = `an://${flag3}`;
       }
@@ -20397,25 +20390,8 @@ async function renderMarkdown(app, file, config, extra) {
 
 ` + lines[idx];
   });
-  const fragment = {
-    children: void 0,
-    appendChild(e) {
-      this.children = e == null ? void 0 : e.children;
-      throw new Error("exit");
-    }
-  };
   const promises = [];
-  try {
-    await import_obsidian2.MarkdownRenderer.render(app, lines.join("\n"), fragment, file.path, comp);
-  } catch (error2) {
-  }
-  const el = createFragment();
-  Array.from(fragment.children).forEach((item) => {
-    el.createDiv({}, (t) => {
-      return t.appendChild(item);
-    });
-  });
-  viewEl.appendChild(el);
+  await import_obsidian2.MarkdownRenderer.render(app, lines.join("\n"), viewEl, file.path, comp);
   await import_obsidian2.MarkdownRenderer.postProcess(app, {
     docId: generateDocId(16),
     sourcePath: file.path,
@@ -20432,13 +20408,18 @@ async function renderMarkdown(app, file, config, extra) {
     displayMode: true
   });
   await Promise.all(promises);
-  printEl.findAll("a.internal-link").forEach((el2) => {
+  printEl.findAll("a.internal-link").forEach((el) => {
     var _a2, _b2;
+<<<<<<< HEAD
     const [title2, anchor] = (_b2 = (_a2 = el2.dataset.href) == null ? void 0 : _a2.split("#")) != null ? _b2 : [];
     if ((!title2 || (title2 == null ? void 0 : title2.length) == 0 || title2 == file.basename) && (anchor == null ? void 0 : anchor.startsWith("^"))) {
+=======
+    const [title, anchor] = (_b2 = (_a2 = el.dataset.href) == null ? void 0 : _a2.split("#")) != null ? _b2 : [];
+    if ((!title || (title == null ? void 0 : title.length) == 0 || title == file.basename) && (anchor == null ? void 0 : anchor.startsWith("^"))) {
+>>>>>>> origin/main
       return;
     }
-    el2.removeAttribute("href");
+    el.removeAttribute("href");
   });
   try {
     await fixWaitRender(data, viewEl);

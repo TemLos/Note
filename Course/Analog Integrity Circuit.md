@@ -31,6 +31,84 @@ Transit Frequency
 - Lower channel length brings higher $F_{T}$ and larger mismatch.
  - $\omega = 2\pi f_{T}$
 
+MOSFET
+$R_{on}=\frac{V_{DS}}{I_{D}}|_{vds}=\left(\partial \frac{I_{D}}{\partial V_{DS}}\right)^{-1}$
+
+$$
+\begin{align*}
+V_{TH}=\Phi_{MS}+2\Phi_{F}+\frac{Q_{dep}}{C_{ox}}\\
+\Phi=\frac{kT}{q}ln(\frac{N_{sub}}{n_{i}})\\
+Q_{dep}=\sqrt {4q\varepsilon_{si}|\Phi_{F}|N_{sub}}
+\end{align*}
+$$
+Deep Triode Region
+Behave like a variable resistor
+![[image_233.png|450]]
+$$
+\begin{align*}
+V_{DS} &\ll 2(V_{GS}-V_{TH})\\
+I_{D}&\approx \mu_{n}C_{ox} \frac{W}{L}(V_{GS}-V_{TH})V_{DS}  
+\end{align*}
+$$
+Triode Rergion
+$$
+\begin{align*}
+I_{D}=\mu_{n}C_{ox} \frac{W}{L}[(V_{GS}-V_{TH})V_{DS}- \frac{1}{2}V_{DS}^{2}]
+\end{align*}
+$$
+Saturation Region
+$$
+\begin{align*}
+V_{DS}&\gg V_{GS}-V_{TH}\\ 
+I_{Dmax}&= \frac{1}{2}\mu_{n}C_{ox} \frac{W}{L}(V_{GS}-V_{TH})^{2}
+\end{align*}
+$$
+For transconductance
+$$
+\begin{align*}
+g_{m}&= \frac{\partial I_{D}}{\partial V_{GS}}|_{V_{ds},constant}\\
+&= \mu_{n}C_{ox} \frac{W}{L}(V_{GS}-V_{TH})\\
+&= \sqrt {2\mu_{n}C_{ox} \frac{W}{L}I_{D}}\\
+&= \frac{2I_{D}}{V_{GS}-V_{TH}}
+\end{align*}
+$$
+Second Order Effect
+Bulk Effect
+$$
+V_{TH}=V_{TH0}+\gamma (\sqrt{2\Phi_{F}+V_{SB}}-\sqrt{2\Phi_{F}})
+$$
+Channel Length Modulation
+$$
+I_{D}\approx \frac{1}{2}\mu_{n}C_{ox} \frac{W}{L}(V_{GS}-V_{TH})^{2}(1+\lambda V_{DS})
+$$
+$$
+\frac{\Delta L}{L}=\lambda V_{DS}
+$$
+MOS Capasitance
+![[image_234.png]]
+
+MOSFET small-signal model
+
+
+Overdrive Voltage: $V_{GS}-V_{TH}$
+Bipolar
+
+$$
+\begin{align*}
+I_{C}=I_{S}exp\left(\frac{V_{BE}}{V_{T}}\right)\\
+V_{T}=kT/q=25mV@300K\\\\
+g_{m}=\frac{\partial I_{C}}{\partial V_{BE}}=\frac{I_{C}}{V_{T}}\\
+g_{m}r_{\pi}=\beta\\
+I_{C}=\beta I_{B}\\
+r_{e}=\left(\frac {\partial I_{E}}{\partial V_{BE}}\right)^{-1}=\frac{1}{g_{m}}
+\end{align*}
+$$
+
+T-Model
+
+$\pi$-Model
+
+
 姓名：王禁城；
 问题：公式里哪一项代表了掺杂浓度；
 答案：N
@@ -50,9 +128,25 @@ Transit Frequency
 # Lecture 3 Single Stage Amplifier
 
 [zhuanlan.zhihu.com/p/564083453](https://zhuanlan.zhihu.com/p/564083453)
-$r_{o }= \lambda I_{D}$
-$\frac{1}{g_{m}}\ll r_{o}$
+$r_{o }= \frac{1}{\lambda I_{D}}$
+$\frac{1}{g_{m}}\ll r_{o}$                                             
 $g_{m} r_{o}$ of short channel device should be 5~10
+
+Method of extracting pole and zero
+- Dominant pole
+- Open circuit time constant
+Common Emitter
+
+
+Common Source
+
+
+
+
+
+
+
+
 姓名：兰林涛
 Q1: 为什么饱和之后电流还会上升？
 A：有效长度减小 沟长调制效应
@@ -218,6 +312,31 @@ A：调整宽度比长度更容易且更精确，例如，可以将两个MOS并�
 
 
 # Lecture 6 Frequency Response
+![[Digital Integrated Circuit#MOS Capacitor]]
+One cap brings one pole and one zero.
+
+Find zero: find a freq. at which the output is 0 no matter what $V_{in}$ is.
+Find pole: find a freq. at which the output is $\infty$ no matter what $V_{in}$ is.
+
+Gain increases with 20dB/dec when going through a zero
+Gain decreases with 20dB/dec when going through a pole
+
+Miller Effect
+![[image_235.png]]
+_Note_: The gain of this OP is negative.
+$$
+\begin{align*}
+Z_{1}&= \frac{Z}{1+A_{V}}\\
+Z_{2}&= \frac{Z}{1+A^{-1}_{V}}
+\end{align*}
+$$
+Only in such conditions can Miller Effect be used: there are more than one path between input and output.
+
+Disadvantages of Miller Effect:
+1. It may eliminate zero
+2. It may forecast additional pole
+3. It is hard to calculate output impedance accurately
+
 姓名：孔震航
 Q：模拟电路分析中字母和角标的大小写的含义。
 A：字母大小写代表交流或直流，角标大小写代表有效值或瞬时值。

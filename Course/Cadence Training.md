@@ -5,9 +5,8 @@
 # Day 3 Floorplan
 # Day 4 Placement and Optimization
 - Global placement
-	Route for every area, not lay down any metal traces.
 - Detail placement
-	Create metal traces and try to remove DRV.
+
 - Row 
 
 
@@ -47,53 +46,3 @@ Timing optimization
 - SI
 
 Transform
-
-# Day 06 CTS
-latency
-- Source Latency
-	From clock source to module
-- Network Latency
-	Latency exits inside the module
-
-Clock trees
-- Physical constraints
-- DRV NDR
-Skew groups
-
-PreCTS
-- ldeal clock
-- Virtual skewing
-PostCTS
-- Propagated clock
-- Buffering/sizing to skew
-
-Function of CTS
-- Physically
-	- Insert buffers or inverters
-	- Upsize and downsize clock cells
-	- Legalize clock cells
-	- Route clock nets
-- Timing constraints
-	- Latency target
-	- Skew target
-	- Transition target
-	- Max capacitance
-	- Max length
-# Day 07 Routing
-- Track
-	No real wire width.
-- Pitch
-	distance between tracks, defined in TF file.
-- Grid Point
-	Crosspoint of tracks.
-- Trace
-	Contains metal real wire with width.
-
-- Channel 
-	
-- Switch Box
-	
-
-
-
-

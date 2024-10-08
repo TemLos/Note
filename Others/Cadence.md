@@ -14,3 +14,14 @@ via23：通孔
 metal3：金属3
 
 >以tsmc65N为例：PO是poly[多晶硅](https://zhidao.baidu.com/search?word=%E5%A4%9A%E6%99%B6%E7%A1%85&fr=iknow_pc_qb_highlight)，OD+NP是N+，OD+PP是P+，NW是N井，M1~8是金属1~8，比较常用的就这些吧貌似。
+>PO(17) ： poly gate， gdsii number 17 ，  
+CO(30), ： contact  
+RV(85)：  via between toplevel metal and AP，  
+AP,： Alpad，  
+CB,： bondpad window  
+CB2, ： bondpad window 2 layers  
+NP： selected P implantation  
+NW ： nwell  
+CD, ： critial dimension，  
+PP(25) ： P implantation  
+SDI分别指代什么意思？ ： esd label，

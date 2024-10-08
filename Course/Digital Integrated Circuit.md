@@ -140,7 +140,7 @@ Capacitance becomes series combination of gate oxide and deletion capacitance.
 Channel makes $C_{GCB}$ drops to zero, we model capacitance by splitting oxide cap equally between source and drain.
 - Saturation region
 ![|525](image_70.jpeg)
-At pinch-off point, $V_GC=V_T$**?未完?**, In bottom line, $C_{GCS}=2/3WLC_{ox}$
+At pinch-off point, $V_{GD}\lt V_T$, In bottom line, $C_{GCS}=2/3WLC_{ox}$
 - Other capacitance
 Gate overlap capacitance
 $$
@@ -516,7 +516,7 @@ Energy-delay product
 $$
 EDP=PDP\times t_p=P_{av}t^2_p=\frac{C_LV_{DD}^2}{2}t_p
 $$
-# Lecture 4 Static Complementary CMOS Logic Gates
+# Lecture 4 Complementary CMOS Logic Gates
 ## Static CMOS Logic
 ### Design
 #### NAND Gate
@@ -692,6 +692,8 @@ Impacts static power consumption due to subthreshold currents flowing through th
 - Full swing.
 - Bidirectionsl.
 ## Dynamic CMOS Logic 
+
+[数字集成电路（8）动态CMOS - 墨魂](https://mohun-8052.github.io/2022/05/01/%E6%95%B0%E5%AD%97%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF%EF%BC%888%EF%BC%89%E5%8A%A8%E6%80%81CMOS/)
 ![[image_22.png]]
 ### Static Properties
 - Dynamic relies on _temporary_ storage of signal on the capacitance.
@@ -710,6 +712,32 @@ Impacts static power consumption due to subthreshold currents flowing through th
 	- Precharge time can be ignored($t_{pLH}=0$), but the presence of the evaluation transistors slows the $t_{pHL}$.
 - _No glitching_. By construction can have at most one transition per cycle
 
+### Domino Logic
+
+Reference: [[4740_lecture16-domino-logic.pdf]]
+
+
+![[image_237.png]]
+![[image_238.png]]
+
+For dynamic logic, PUN networks can't be cascaded. when cascaded with an equivalent gate, the pre-charged output of the second gate may be discharged before its inputs stabilize.
+
+![[image_239.png]]
+![[image_242.png]]
+
+Use domino logic to make sure the pre-charged output is _always high_ or _low to  high_ unless evaluate.
+
+- Disadvantages
+	- Only _Non-Inverting_ logic can be implemented
+		- Use De Morgan or other logic transforms
+		- Use differential logic (dual )
+		- Use np-CMOS (zipper or NORA)
+	- Larger area than static logic
+	- higher power consumption than static.
+- Advantages
+	- Extremely fast circuits
+	- Inverter enable easy use of level restores
+![[image_240.png]]![[image_241.png]]
 ## Ratiod Logic and Ratioless Logic
 ![[image_32.png]]
 

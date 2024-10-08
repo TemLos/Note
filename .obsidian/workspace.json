@@ -4,16 +4,41 @@
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "3e0d61c8723e58f2",
         "type": "tabs",
         "children": [
           {
             "id": "fde5cdbf9edf43d0",
+=======
+        "id": "13cfc05152ebb5f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "020b90c3419e1955",
+>>>>>>> origin/main
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Linux/Ubuntu Server.md",
+=======
+                "file": "Others/Linux.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a31549499158ad4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Others/Cadence.md",
+>>>>>>> origin/main
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +111,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Linux/Ubuntu Server.md",
+=======
+                "file": "Others/Cadence.md",
+>>>>>>> origin/main
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +132,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "Linux/Ubuntu Server.md",
+=======
+                "file": "Others/Cadence.md",
+>>>>>>> origin/main
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +159,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Linux/Ubuntu Server.md"
+=======
+                "file": "Others/Cadence.md"
+>>>>>>> origin/main
               }
             }
           },
@@ -156,6 +193,7 @@
       "remotely-save:Remotely Save": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "obsidian-trash-explorer:Open trash explorer": false,
+<<<<<<< HEAD
       "translate:Open translation view": false,
       "obsidian-git:Open Git source control": false
     }
@@ -182,24 +220,53 @@
     "Course/模拟集成电路.md",
     "Course/半导体物理.md",
     "Course/Semiconductor Device Physics.md",
+=======
+      "translate:Open translation view": false
+    }
+  },
+  "active": "4a31549499158ad4",
+  "lastOpenFiles": [
+    "Course/Digital Integrated Circuit.md",
+    "_image/image_242.png",
+    "Others/Linux.md",
+    "_image/4740_lecture16-domino-logic.pdf",
+    "_image/image_241.png",
+    "_image/image_240.png",
+    "_image/image_239.png",
+    "_image/image_238.png",
+    "_image/image_237.png",
+    "Course/Analog Integrity Circuit.md",
+    "_image/image_236.png",
+    "_image/image_235.png",
+    "Others/latex符号.md",
+    "_image/image_234.png",
+    "_image/image_233.png",
+    "Course/Semiconductor Device Physics.md",
+    "Course/模拟集成电路.md",
+    "Course/Cadence Training.md",
+>>>>>>> origin/main
     "Course/Analog Integrity Circuit.md.baiduyun.uploading.cfg",
     "Course/模拟集成电路.md.baiduyun.uploading.cfg",
     "Course/Cadence Training.md.baiduyun.uploading.cfg",
     "_image/image_231.png.baiduyun.uploading.cfg",
+<<<<<<< HEAD
     "_image/image_231.png",
     "_image/image_230.png",
+=======
+    "_image/image_230.png.baiduyun.uploading.cfg",
+    "Course/Dynamic CMOS Logic VS Ratioed Logic.md.baiduyun.uploading.cfg",
+    "Course/半导体物理.md",
+>>>>>>> origin/main
     "Course/Dynamic CMOS Logic VS Ratioed Logic.md",
     "Supplement/Schrodinger Equation.md",
+<<<<<<< HEAD
+=======
+    "Cryogenic CMOS/低温CMOS.md.baiduyun.uploading.cfg",
+    "Course/Digital Integrated Circuit.md.baiduyun.uploading.cfg",
+    "Course/Semiconductor Device Physics.md.baiduyun.uploading.cfg",
+>>>>>>> origin/main
     "Course/VLSI Flow.md",
     "Note/Course/Semiconductor Device Physics.md",
-    "Note/_image/纳米电子学_image_8.jpeg",
-    "Note/_image/纳米电子学_image_20.jpeg",
-    "Note/_image/纳米电子学_image_19.jpeg",
-    "Note/_image/纳米电子学_image_18.jpeg",
-    "Note/_image/数字集成电路设计_image_82.jpeg",
-    "Note/_image/数字集成电路设计_image_81.jpeg",
-    "Note/_image/数字集成电路设计_image_80.jpeg",
-    "Note/_image/数字集成电路设计_image_79.jpeg",
     "Note/Supplement/Leakage Current Mechanisms.md",
     "Note/Supplement/Schrodinger Equation.md",
     "Note/Supplement/Fan-out 4.md",
@@ -207,6 +274,14 @@
     "Note/Others/摄影后期.md",
     "Note/Others/摄影前期.md",
     "Note/Others/产业报告.md",
+<<<<<<< HEAD
+=======
+    "Note/Others/Week06.md",
+    "Note/Others/README-zh_CN.md",
+    "Note/Others/Previous Week Plan.md",
+    "Note/Others/Matlab.md",
+    "Note/Others/MarkDown 教程.md",
+>>>>>>> origin/main
     "未命名.canvas",
     "数字集成电路设计_image_1.canvas",
     "未命名 1.canvas"
