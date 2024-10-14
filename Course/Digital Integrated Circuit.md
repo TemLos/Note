@@ -238,12 +238,12 @@ $$
 **How to induce DIBL?**
 ![](image_73.jpeg)
 ###### Leakage
-![550](image_74.jpeg)
+![550|525](image_74.jpeg)
 
 ###### Temperature Sensitivity
 Current in sub-threshold region
 $$
-I_{ds}=I_{ds0}\cdot e^{\frac{v_{gs}-V_{t0}+\eta V_{ds}-k_\gamma V_{sb}}{nv_T}(1-e^{(-V_{ds}/v_T)})}
+I_{ds}=I_{ds0}\cdot e^{\frac{v_{gs}-V_{t0}+\eta V_{ds}-k_\gamma V_{sb}}{nv_T}(1-e^{(-V_{ds}/v_T)})}=I_{ds0}\cdot exp(\frac{V_{gs}}{\varepsilon V_T})
 $$
 ###### Process and Environmental Variations
 - Supply voltage

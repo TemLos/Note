@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Ubuntu Server.md",
+                "file": "Others/Memorandum.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Ubuntu Server.md",
+                "file": "Others/Memorandum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Ubuntu Server.md",
+                "file": "Others/Memorandum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Ubuntu Server.md"
+                "file": "Others/Memorandum.md"
               }
             }
           },
@@ -143,16 +143,17 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "obsidian-trash-explorer:Open trash explorer": false,
       "translate:Open translation view": false,
@@ -161,9 +162,14 @@
   },
   "active": "fde5cdbf9edf43d0",
   "lastOpenFiles": [
+    "Others/Memorandum.md.baiduyun.uploading.cfg",
+    "Course/Digital Integrated Circuit.md",
+    "Others/Memorandum.md",
+    "Others/Week06.md",
+    "Others/Previous Week Plan.md",
+    "Linux/Ubuntu Server.md",
     "Linux/Ubuntu Server.md.baiduyun.uploading.cfg",
     "Cryogenic CMOS/Relevant Knowledge.md",
-    "Linux/Ubuntu Server.md",
     "Others/Cadence.md.baiduyun.uploading.cfg",
     "Course/Digital Integrated Circuit.md.baiduyun.uploading.cfg",
     "Others/Linux.md.baiduyun.uploading.cfg",
@@ -187,7 +193,6 @@
     "Others/Linux.md",
     "Linux/Vim.md",
     "Others/latex符号.md",
-    "Course/Digital Integrated Circuit.md",
     "Others/MarkDown 教程.md",
     "Course/Digital Integrated Circuit--Literature Review.md",
     "Course/Digital Integrated Circuit--Reading.md",
@@ -203,9 +208,6 @@
     "Note/Course/Semiconductor Device Physics.md",
     "Note/Supplement/Leakage Current Mechanisms.md",
     "Note/Supplement/Schrodinger Equation.md",
-    "Note/Supplement/Fan-out 4.md",
-    "Note/Supplement/Crystal.md",
-    "Note/Others/摄影后期.md",
     "未命名.canvas",
     "数字集成电路设计_image_1.canvas",
     "未命名 1.canvas"

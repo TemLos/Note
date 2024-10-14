@@ -3,5 +3,7 @@
   "cssTheme": "Obsidian Nord",
   "enabledCssSnippets": [
     "1"
-  ]
+  ],
+  "baseFontSize": 19,
+  "baseFontSizeAction": true
 }
