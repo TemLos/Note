@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Others/Memorandum.md",
+                "file": "Course/Digital Integrated Circuit.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Others/Memorandum.md",
+                "file": "Course/Digital Integrated Circuit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Others/Memorandum.md",
+                "file": "Course/Digital Integrated Circuit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Others/Memorandum.md"
+                "file": "Course/Digital Integrated Circuit.md"
               }
             }
           },
@@ -139,11 +139,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,23 +162,28 @@
   },
   "active": "fde5cdbf9edf43d0",
   "lastOpenFiles": [
-    "Others/Memorandum.md.baiduyun.uploading.cfg",
-    "Course/Digital Integrated Circuit.md",
+    "Course/Digital Integrated Circuit.md.baiduyun.uploading.cfg",
     "Others/Memorandum.md",
+    "Course/Digital Integrated Circuit.md",
+    "Course/Digital Integrated Circuit--Literature Review.md",
+    "Course/Nano Electronics.md",
+    "Course/Semiconductor Device Physics.md",
+    "Course/Nano Electronics.md.baiduyun.uploading.cfg",
+    "Course/Digital Integrated Circuit--Reading.md",
+    "Course/模拟集成电路.md",
+    "Course/半导体物理.md",
+    "Others/Memorandum.md.baiduyun.uploading.cfg",
     "Others/Week06.md",
     "Others/Previous Week Plan.md",
     "Linux/Ubuntu Server.md",
     "Linux/Ubuntu Server.md.baiduyun.uploading.cfg",
     "Cryogenic CMOS/Relevant Knowledge.md",
     "Others/Cadence.md.baiduyun.uploading.cfg",
-    "Course/Digital Integrated Circuit.md.baiduyun.uploading.cfg",
     "Others/Linux.md.baiduyun.uploading.cfg",
     "_image/image_242.png.baiduyun.uploading.cfg",
     "_image/image_241.png.baiduyun.uploading.cfg",
     "_image/image_240.png.baiduyun.uploading.cfg",
     "_image/image_239.png.baiduyun.uploading.cfg",
-    "_image/image_238.png.baiduyun.uploading.cfg",
-    "_image/image_237.png.baiduyun.uploading.cfg",
     "conflict-files-obsidian-git.md",
     "_image/image_242.png",
     "_image/image_241.png",
@@ -193,20 +199,14 @@
     "Linux/Vim.md",
     "Others/latex符号.md",
     "Others/MarkDown 教程.md",
-    "Course/Digital Integrated Circuit--Literature Review.md",
-    "Course/Digital Integrated Circuit--Reading.md",
     "Course/Cadence Training.md",
     "Course/Analog Integrity Circuit.md",
     "Course/Applied Numerical Computing.md",
-    "Course/模拟集成电路.md",
-    "Course/半导体物理.md",
-    "Course/Semiconductor Device Physics.md",
     "Course/Dynamic CMOS Logic VS Ratioed Logic.md",
     "Supplement/Schrodinger Equation.md",
     "Course/VLSI Flow.md",
     "Note/Course/Semiconductor Device Physics.md",
     "Note/Supplement/Leakage Current Mechanisms.md",
-    "Note/Supplement/Schrodinger Equation.md",
     "未命名.canvas",
     "数字集成电路设计_image_1.canvas",
     "未命名 1.canvas"

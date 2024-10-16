@@ -78,6 +78,12 @@ V_T=V_{T0}+\gamma\cdot(\sqrt{\varphi_s+V_{SB}}-\sqrt{\varphi_s})
 $$
 To control threshold voltage, we have to insulate P and N substrate.
 ![[image_58.jpeg|500]]
+
+**Subthreshold Swing**
+$$
+S=\frac{dV_{gs}}{d(lgI_{DS})}=ln10 \frac{dV_{GS}}{d(lnI_{DS})}=\frac{kT}{q}ln10 \frac{dV_{GS}}{dV_{S}}
+$$
+Less SS refers to greater ON-OFF ratio
 ### Static Behavors
 ![[image_59.jpeg|500]]
 - Cutoff Region
