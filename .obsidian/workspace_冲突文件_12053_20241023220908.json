@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Ubuntu Server.md",
+                "file": "Others/Cadence.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ubuntu Server"
+              "title": "Cadence"
             }
           },
           {
@@ -74,7 +74,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -196,12 +196,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "obsidian-trash-explorer:Open trash explorer": false,
       "translate:Open translation view": false,
@@ -211,9 +211,6 @@
   },
   "active": "fde5cdbf9edf43d0",
   "lastOpenFiles": [
-    "Others/Cadence.md",
-    "Others/Cadence(1).md.baiduyun.downloading.cfg",
-    "Others/Cadence(1).md.baiduyun.downloading",
     "Dailyo Note/2024-10-23(1).md.baiduyun.downloading.cfg",
     "Dailyo Note/2024-10-23(1).md.baiduyun.downloading",
     "Dailyo Note/2024-10-23.md",
@@ -230,6 +227,7 @@
     "Dailyo Note/2024-10-22.md.baiduyun.uploading.cfg",
     "Others/Matlab.md",
     "Others/Memorandum.md",
+    "Supplement/Crystal.md.baiduyun.uploading.cfg",
     "Others/README-zh_CN.md",
     "Supplement/Crystal.md",
     "Course/VLSI Flow.md",
@@ -238,8 +236,11 @@
     "Others/摄影后期.md",
     "Supplement/Schrodinger Equation.md",
     "Linux/Ubuntu Server.md",
+    "Others/Cadence.md",
+    "Others/Cadence.md.baiduyun.uploading.cfg",
     "Others/摄影前期.md",
     "Linux/Vim.md",
+    "Others/Hspice.md.baiduyun.uploading.cfg",
     "Others/MarkDown 教程.md",
     "Others/Week06.md",
     "未命名.md",
