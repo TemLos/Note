@@ -13,7 +13,7 @@ Installation
 >curl -fsSL "https://alist.nn.ci/v3.sh" | bash -s install
 
 Configuration
->/opt/alist/`data/config.json`
+>vim /opt/alist/`data/config.json`
 ```
 {
   "force": false,
@@ -107,7 +107,7 @@ Configuration
 Port 445
 
 Configuration
-/etc/samba/smb.conf\
+> vim /etc/samba/smb.conf
 ```
 [temp]              <==共享资源名称
         comment = Temporary file space <==简单的解释，内容无关紧要
@@ -129,7 +129,7 @@ Restart samba then.
 Port 5003
 
 Installation
-apt install -y qbittorrent-nox
+> apt install -y qbittorrent-nox
 
 Config as background program
 > vim /etc/systemd/system/qbittorrent-nox.service
@@ -158,6 +158,31 @@ WantedBy=multi-user.target
 # Clash
 
 # Others
+## Disk Mounting
+[Ubuntu 配置/etc/fstab参数实现开机自动挂载硬盘\_ubuntu fstab-CSDN博客](https://blog.csdn.net/u010632165/article/details/89597522)
+```
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+# / was on /dev/sda2 during curtin installation
+
+/dev/disk/by-uuid/f85ba1c2-ba10-45ec-ae6c-98a62f0756d4 / ext4 defaults 0 1
+
+# /boot/efi was on /dev/sda1 during curtin installation
+/dev/disk/by-uuid/4C5A-5B7B /boot/efi vfat defaults 0 1
+
+/swap.img       none    swap    sw      0       0
+
+/dev/disk/by-id/wwn-0x50014ee2161e90db /mnt/HDD2 auto nosuid,nodev,nofail,x-gvfs-show 0 0
+
+/dev/disk/by-id/wwn-0x50014ee6b35b05b4-part1 /mnt/HDD1 auto nosuid,nodev,nofail,x-gvfs-show 0 0
+
+/dev/disk/by-id/wwn-0x5000c500e7a04a0b /mnt/HDD3 auto nosuid,nodev,nofail,x-gvfs-show 0 0
+```
 ## SSH
 Port 22
 > apt install openssh-server
