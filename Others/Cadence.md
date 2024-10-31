@@ -1,3 +1,17 @@
+# Virtuoso
+[cadence virtuoso PEX 寄生参数提取及后仿真\_pex提取寄生参数-CSDN博客](https://blog.csdn.net/weixin_42221495/article/details/134474216)
+
+[ADE后仿真问题 - Analog/RF IC 设计讨论 - EETOP 创芯网论坛 (原名：电子顶级开发网) -](https://bbs.eetop.cn/thread-322566-1-1.html)
+
+
+"input.scs" 22: The instance \`I129' is referencing an undefined model or subcircuit, \`subcircuit\'. Either include the file containing the definition of \`subcircuit\', or define \`subcircuit\' before running the simulation.
+[input.scs没有识别到自己建的原理图 - Layout讨论区 - EETOP 创芯网论坛 (原名：电子顶级开发网) -](https://bbs.eetop.cn/thread-974206-1-1.html)
+
+ERROR (CMI-2440): "/home/hwpll20/tsmc28/tsmcN28/../models/spectre/./cln28ull_1d8_elk_v1d8_3.scs" 24534: I0.MM16@1943:  The length, width, or area of the instance does not fit the given lmax-lmin, wmax-wmin, or areamax-areamin range for any model in the \`[I0.MM16@1943.pch](mailto:I0.MM16@1943.pch)\' group. The channel width is 3.000000e-06 and length is 1.200000e-07. Specify channel width and length that do not exceed the referenced maximal area Lmax=9.001000e-07, Lmin=2.700000e-08, Wmax=2.700100e-06,and Wmin=9.000000e-08. You can choose the nearest model by setting the value of \`soft_bin\' option to \`allmodels\'.
+[28nm工艺后仿的时候遇到了管尺寸的问题 - Analog/RF IC 设计讨论 - EETOP 创芯网论坛 (原名：电子顶级开发网) -](https://bbs.eetop.cn/thread-907686-1-1.html)
+
+
+
 Explore usage of the ruler
 >You would be wise to explore the manual located in $CDS/IC/doc you are looking for the vlehelp folder (find $CDS/IC/doc -name "*vlehelp*" will locate it and you should use this for finding other manuals such as viva the schematic editor (comphelp is the name of the Virtuoso Schematic Editor L). You should look at: Using Rulers (this one is important), Creating Rulers with Smart Snapping, Setting Up Snap Mode, Creating Rulers with Snapping On, and a whole host of others. With rulers, you can cycle through the snap modes (anyAngle -> diagonal -> orthogonal) by pressing the N bindkey or clicking the Synchronized SnapMode icon on the Options toolbar.
 ### Basic level

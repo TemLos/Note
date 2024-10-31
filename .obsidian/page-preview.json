@@ -1,9 +1,9 @@
 {
   "search": false,
-  "editor": false,
   "git-view": false,
   "file-explorer": false,
   "bookmarks": false,
   "outline": false,
-  "graph": false
+  "graph": false,
+  "preview": true
 }

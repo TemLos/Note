@@ -12,6 +12,5 @@
   "obsidian-image-layouts",
   "better-export-pdf",
   "obsidian-pandoc",
-  "obsidian-git",
-  "templater-obsidian"
+  "obsidian-git"
 ]

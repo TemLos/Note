@@ -13,13 +13,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Others/Cadence.md",
+                "file": "2024-10-23.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cadence"
+              }
             }
           },
           {
@@ -32,9 +30,7 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Matlab"
+              }
             }
           },
           {
@@ -47,9 +43,7 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Semiconductor Device Physics"
+              }
             }
           }
         ]
@@ -72,9 +66,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              }
             }
           },
           {
@@ -89,9 +81,7 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "搜索"
+              }
             }
           },
           {
@@ -99,9 +89,7 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "书签"
+              "state": {}
             }
           }
         ]
@@ -124,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "日记模板.md",
+                "file": "2024-10-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,9 +120,7 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "日记模板 的反向链接列表"
+              }
             }
           },
           {
@@ -143,12 +129,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "日记模板.md",
+                "file": "2024-10-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
-              },
-              "icon": "links-going-out",
-              "title": "日记模板 的出链列表"
+              }
             }
           },
           {
@@ -159,9 +143,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "标签"
+              }
             }
           },
           {
@@ -170,10 +152,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "日记模板.md"
-              },
-              "icon": "lucide-list",
-              "title": "日记模板 的大纲"
+                "file": "2024-10-23.md"
+              }
             }
           },
           {
@@ -181,9 +161,7 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "state": {}
             }
           }
         ],
@@ -196,12 +174,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "obsidian-trash-explorer:Open trash explorer": false,
       "translate:Open translation view": false,
@@ -211,22 +189,15 @@
   },
   "active": "fde5cdbf9edf43d0",
   "lastOpenFiles": [
-    "Others/Cadence(1).md.baiduyun.downloading.cfg",
-    "Others/Cadence(1).md.baiduyun.downloading",
-    "Dailyo Note/2024-10-23(1).md.baiduyun.downloading.cfg",
-    "Dailyo Note/2024-10-23(1).md.baiduyun.downloading",
-    "Dailyo Note/2024-10-23.md",
-    "2024-10-23(1).md.baiduyun.downloading.cfg",
-    "2024-10-23(1).md.baiduyun.downloading",
+    "2024-10-23.md.baiduyun.uploading.cfg",
+    "Dailyo Note/2024-10-22.md",
     "2024-10-23.md",
-    "Dailyo Note/2024-10-22(1).md.baiduyun.downloading.cfg",
-    "Dailyo Note/2024-10-22(1).md.baiduyun.downloading",
+    "Dailyo Note/2024-10-22.md.baiduyun.uploading.cfg",
+    "Others/Cadence.md",
     "Course/Semiconductor Device Physics.md",
     "Dailyo Note/2024-10-21.md",
     "Template/Daily Note.md.baiduyun.uploading.cfg",
     "Template/Daily Note.md",
-    "Dailyo Note/2024-10-22.md",
-    "Dailyo Note/2024-10-22.md.baiduyun.uploading.cfg",
     "Others/Matlab.md",
     "Others/Memorandum.md",
     "Supplement/Crystal.md.baiduyun.uploading.cfg",
@@ -238,15 +209,21 @@
     "Others/摄影后期.md",
     "Supplement/Schrodinger Equation.md",
     "Linux/Ubuntu Server.md",
-    "Others/Cadence.md",
+    "Others/Cadence.md.baiduyun.uploading.cfg",
     "Others/摄影前期.md",
     "Linux/Vim.md",
+    "Others/Hspice.md.baiduyun.uploading.cfg",
+    "Dailyo Note/2024-10-21.md.baiduyun.uploading.cfg",
     "Others/MarkDown 教程.md",
     "Others/Week06.md",
+    "Others/Week06.md.baiduyun.uploading.cfg",
     "未命名.md",
     "未命名 1.md",
+    "未命名 1.md.baiduyun.uploading.cfg",
+    "未命名.md.baiduyun.uploading.cfg",
     "Others/Previous Week Plan.md",
     "2024-10-21.md",
+    "Others/产业报告.md",
     "_image/image_242.png",
     "_image/image_241.png",
     "_image/image_240.png",
