@@ -103,28 +103,6 @@ Configuration
 }
 ```
 
-# Samba
-Port 445
-
-Configuration
-> vim /etc/samba/smb.conf
-```
-[temp]              <==共享资源名称
-        comment = Temporary file space <==简单的解释，内容无关紧要
-        path = /tmp     <==实际的共享目录
-        writable = yes    <==设置为可写入
-        browseable = yes   <==可以被所有用户浏览到资源名称，
-        guest ok = yes    <==可以让用户随意登录
-```
-
-Tutorial from CSDN
-[【Linux】Samba服务器超详细安装、配置（附带各种问题解决方式）\_samba安装-CSDN博客](https://blog.csdn.net/qq_38410730/article/details/80500920)
-
-Set samba user password
-> smbpasswd -a username
-
-Restart samba then.
->/etc/init.d/smbd restart
 # qBittorrent
 Port 5003
 
@@ -153,10 +131,44 @@ WantedBy=multi-user.target
 > systemctl daemon-reload
 > systemctl start qbittorrent-nox
 > systemctl enable qbittorrent-nox
+
+# Komga
+Port 5004
+Install from 1panel
+Need to edit in 'Container' event of 1panel
+[【保姆教程】属于自己的超全漫画库！全平台可用 - 哔哩哔哩](https://www.bilibili.com/read/cv34416103/)
+# Samba
+Port 445
+
+Configuration
+> vim /etc/samba/smb.conf
+```
+[temp]              <==共享资源名称
+        comment = Temporary file space <==简单的解释，内容无关紧要
+        path = /tmp     <==实际的共享目录
+        writable = yes    <==设置为可写入
+        browseable = yes   <==可以被所有用户浏览到资源名称，
+        guest ok = yes    <==可以让用户随意登录
+```
+
+Tutorial from CSDN
+[【Linux】Samba服务器超详细安装、配置（附带各种问题解决方式）\_samba安装-CSDN博客](https://blog.csdn.net/qq_38410730/article/details/80500920)
+
+Set samba user password
+> smbpasswd -a username
+
+Restart samba then.
+>/etc/init.d/smbd restart
+
 # V2ray
 
-# Clash
+# Clash-Verge
+Port 5005
+[Releases · zzzgydi/clash-verge](https://github.com/zzzgydi/clash-verge/releases)
+[Clash Verge在Linux上的全面教程 | Clash中文教程网](https://clashv2ray.com/29579.html)
+[sub.ssw-cloud.com/api/v1/client/subscribe?token=d0e552870861c222e39ec4fa9e00ae07](https://sub.ssw-cloud.com/api/v1/client/subscribe?token=d0e552870861c222e39ec4fa9e00ae07)
 
+How to enable webui?
 # Others
 ## Disk Mounting
 [Ubuntu 配置/etc/fstab参数实现开机自动挂载硬盘\_ubuntu fstab-CSDN博客](https://blog.csdn.net/u010632165/article/details/89597522)
