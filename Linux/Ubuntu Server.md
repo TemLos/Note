@@ -137,6 +137,22 @@ Port 5004
 Install from 1panel
 Need to edit in 'Container' event of 1panel
 [【保姆教程】属于自己的超全漫画库！全平台可用 - 哔哩哔哩](https://www.bilibili.com/read/cv34416103/)
+
+# Smanga
+[GitHub - lkw199711/smanga: A simple manga browser 一款docker直装的漫画浏览器](https://github.com/lkw199711/smanga)
+Port 5006
+SQL Port 3333
+```
+docker run -itd \
+--name smanga \
+-p 3333:3306 \
+-p 5006:80 \
+-v /mnt:/mnt \
+-v /mnt/HDD2/Smange:/data \
+-v /mnt/compress:/compress \
+lkw199711/smanga;
+```
+
 # Samba
 Port 445
 
