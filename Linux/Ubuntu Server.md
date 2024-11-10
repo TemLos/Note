@@ -184,7 +184,7 @@ Port 5005
 [Clash Verge在Linux上的全面教程 | Clash中文教程网](https://clashv2ray.com/29579.html)
 [sub.ssw-cloud.com/api/v1/client/subscribe?token=d0e552870861c222e39ec4fa9e00ae07](https://sub.ssw-cloud.com/api/v1/client/subscribe?token=d0e552870861c222e39ec4fa9e00ae07)
 
-How to enable webui?
+How to enable webUI?
 # Others
 ## Disk Mounting
 [Ubuntu 配置/etc/fstab参数实现开机自动挂载硬盘\_ubuntu fstab-CSDN博客](https://blog.csdn.net/u010632165/article/details/89597522)
