@@ -176,8 +176,6 @@ Set samba user password
 Restart samba then.
 >/etc/init.d/smbd restart
 
-# V2ray
-
 # Clash-Verge
 Port 5005
 [Releases · zzzgydi/clash-verge](https://github.com/zzzgydi/clash-verge/releases)
@@ -185,6 +183,44 @@ Port 5005
 [sub.ssw-cloud.com/api/v1/client/subscribe?token=d0e552870861c222e39ec4fa9e00ae07](https://sub.ssw-cloud.com/api/v1/client/subscribe?token=d0e552870861c222e39ec4fa9e00ae07)
 
 How to enable webUI?
+
+# Linux-commad
+Port 5007
+Install from 1panel
+
+# AutoBangumi
+Port 5008
+
+[快速开始 | AutoBangumi](https://www.autobangumi.org/deploy/quick-start.html)
+[蜜柑计划 - Mikan Project](https://mikanime.tv/)
+
+```
+# 使用 Docker volume
+docker volume create AutoBangumi_config
+docker volume create AutoBangumi_data
+
+docker run -d \
+  --name=AutoBangumi \
+  -v AutoBangumi_config:/app/config \
+  -v AutoBangumi_data:/app/data \
+  -p 5008:7892 \
+  -e TZ=Asia/Shanghai \
+  -e PUID=$(id -u) \
+  -e PGID=$(id -g) \
+  -e UMASK=022 \
+  --network=bridge \
+  --dns=8.8.8.8 \
+  --restart unless-stopped \
+  ghcr.io/estrellaxd/auto_bangumi:latest
+```
+- admin
+- adminadmin
+
+![[image_245.png]]
+
+# V2ray
+
+
 # Others
 ## Disk Mounting
 [Ubuntu 配置/etc/fstab参数实现开机自动挂载硬盘\_ubuntu fstab-CSDN博客](https://blog.csdn.net/u010632165/article/details/89597522)
