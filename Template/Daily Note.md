@@ -55,7 +55,7 @@ await fetch('https://v1.hitokoto.cn/?c=d&c=h&c=i&c=j')
 # To do list
 
 
-# Diary
+# Today
 
 
 
