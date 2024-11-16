@@ -231,15 +231,15 @@ $$
 V_T=V_{T0}+\gamma\cdot(\sqrt{\varphi_S+V_{SB}}-\sqrt{\varphi_S})
 $$
 - Short Channel Effect
-	In CMOS component process, when channel length reduce to 10~20 nm or even less, with channel length reducing, Vth reduces, carrier surface scaterring, velocity saturation,  ioniztion and hot electrons effect become more distinct.
+	In CMOS component process, when channel length reduce to 10~20 nm or even less, with channel length reducing, Vth reduces, carrier surface scaterring, velocity saturation,  ioniztion and hot electrons effect become more obvious.
 - Narrow Witdth Effect
 	In CMOS process, with the narrowing of channel width, Vth increases.
-	It may be caused by $Q_{chw}$, which is out of channel but still be abtracted by electric field of gate.
+	It may be caused by $Q_{chw}$(not $Q_{ch}$), which is out of channel but still be abtracted by electric field of gate. Due to such electrons, we need higher electron density to maintain ON state, and when width reduce to a certain point, it can't be ignored.
 	![[image_120.png]]
 - Drain-Induced Barrier Lowering(DIBL)
 		High drain voltage causes current to increase.
 $$
-V_t’=V_t’-\eta V_{ds}
+V_t=V_t’-\eta V_{ds}
 $$
 **How to induce DIBL?**
 ![](image_73.jpeg)
