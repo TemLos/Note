@@ -134,7 +134,7 @@ $V_{ds}$ broadens cutoff region and voltage at cutoff point is equal to $V_{gs}$
 Not true value table, but engineer consideration——don’t know customer’s usage, so take them equal.
 **Why is 90% or 10%?**
 1. If higher than 90%: too slow
-2. If lower than 01%: too obvious noice
+2. If lower than 10%: too obvious noice
 ### MOS Capacitor
 ###### Gate Capacity
 ![|450](image_67.jpeg)
@@ -490,7 +490,7 @@ f=e,\quad \gamma = 0\\
 f=3.6,\quad \gamma = 1
 \end{cases}
 $$
-![[Fan-out 4]]
+![[Fan-out and Fan-in]]
 
 ## Power
 ### Dynamic Energy Dissipation

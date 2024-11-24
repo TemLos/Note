@@ -13,5 +13,11 @@
   "better-export-pdf",
   "obsidian-pandoc",
   "obsidian-git",
-  "templater-obsidian"
+  "templater-obsidian",
+  "dataview",
+  "calendar",
+  "obsidian-checklist-plugin",
+  "obsidian-day-planner",
+  "obsidian-style-settings",
+  "obsidian-toggle-list"
 ]

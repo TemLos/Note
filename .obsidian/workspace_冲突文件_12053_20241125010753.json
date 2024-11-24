@@ -1,0 +1,250 @@
+{
+  "main": {
+    "id": "3acb2e22073f81d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "e662ab8c9b54d27a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a5025f54aa6642e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Course/Digital Integrated Circuit.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Digital Integrated Circuit"
+            }
+          },
+          {
+            "id": "176ab83e453e22b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Course/Digital Integrated Circuit.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Digital Integrated Circuit"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d3d86d6bc3c67afc",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e8fee08526c51f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1955e94e5d8df513",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "daa2e3d4a96e4fa4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0803d1df6486df9b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 278.5
+  },
+  "right": {
+    "id": "d1f976f375fc2565",
+    "type": "split",
+    "children": [
+      {
+        "id": "9bac30bfa450d76c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc90a2b99e02511b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "日记模板.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "日记模板 的反向链接列表"
+            }
+          },
+          {
+            "id": "6d3d96c87b0afc57",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "日记模板.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "日记模板 的出链列表"
+            }
+          },
+          {
+            "id": "574fe3852ec83a55",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "885d58d2c64e7ccc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "日记模板.md"
+              },
+              "icon": "lucide-list",
+              "title": "日记模板 的大纲"
+            }
+          },
+          {
+            "id": "3bae48d5845dd8af",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "translate:Open translation view": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "176ab83e453e22b8",
+  "lastOpenFiles": [
+    "Template/Weekly Note(1).md.baiduyun.downloading.cfg",
+    "Template/Weekly Note(1).md.baiduyun.downloading",
+    "Template/Weekly Note.md",
+    "Template/Daily Note 1.md",
+    "Template/Daily Note 1.md.baiduyun.downloading.cfg",
+    "Template/Daily Note 1.md.baiduyun.downloading",
+    "Template/Daily Note(1).md.baiduyun.downloading.cfg",
+    "Template/Daily Note(1).md.baiduyun.downloading",
+    "Dailyo Note/2024-11-25(1).md.baiduyun.downloading.cfg",
+    "Dailyo Note/2024-11-25(1).md.baiduyun.downloading",
+    "Dailyo Note/2024-11-26.md",
+    "Dailyo Note/2024-11-26.md.baiduyun.downloading.cfg",
+    "Dailyo Note/2024-11-26.md.baiduyun.downloading",
+    "Dailyo Note/2024-10-21(1).md.baiduyun.downloading.cfg",
+    "Dailyo Note/2024-11-25.md",
+    "Weekly Note/2024-W47.md",
+    "Supplement/INWE、RSCE and halo.md",
+    "Supplement/Latch up.md",
+    "Supplement/Fan-out and Fan-in.md",
+    "Supplement/Twin wells and triple wells.md",
+    "_image/image_249.png",
+    "_image/image_248.png",
+    "_image/image_247.png",
+    "_image/image_246.png",
+    "Record/Layout.md",
+    "Supplement/Schrodinger Equation.md",
+    "Supplement/Leakage Current Mechanisms.md",
+    "Others/Matlab.md",
+    "Others/Linux.md",
+    "Record/Cryogenic CMOS.md",
+    "Dailyo Note/2024-11-16.md",
+    "Dailyo Note/2024-10-23.md",
+    "Template/Daily Note.md",
+    "Course/Digital Integrated Circuit.md",
+    "Others/Memorandum.md",
+    "Supplement/Crystal.md",
+    "Course/Nano Electronics.md",
+    "Linux/Docker 命令大全.md",
+    "Others/摄影后期.md",
+    "Others/摄影前期.md",
+    "_image/image_245.png",
+    "_image/image_244.png",
+    "_image/image_243.png",
+    "_image/image_242.png",
+    "_image/image_241.png",
+    "_image/image_240.png",
+    "未命名.canvas",
+    "数字集成电路设计_image_1.canvas",
+    "未命名 1.canvas"
+  ]
+}

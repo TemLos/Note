@@ -69,5 +69,14 @@
       ],
       "key": "D"
     }
-  ]
+  ],
+  "obsidian-toggle-list:Task-Next": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ],
+  "workspace:new-tab": []
 }
