@@ -1,9 +1,11 @@
 {
-  "accentColor": "",
-  "cssTheme": "Obsidian Nord",
+  "accentColor": "#607cbe",
+  "cssTheme": "Atom",
   "enabledCssSnippets": [
     "1"
   ],
-  "baseFontSize": 14,
-  "baseFontSizeAction": true
+  "baseFontSize": 17,
+  "baseFontSizeAction": true,
+  "nativeMenus": false,
+  "theme": "obsidian"
 }
